@@ -1,0 +1,1050 @@
+[
+    {
+        "id": "amma_vodi",
+        "name": "Amma Vodi",
+        "category": "education",
+        "description": "Financial assistance to mothers to send children to school",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 500000,
+        "eligible_for": [
+            "mother_of_schoolgoing_child"
+        ],
+        "benefits": "₹15,000 per year per child studying in government school",
+        "apply_at": "Nearest school / Navasakam portal",
+        "documents": [
+            "Aadhaar",
+            "Child school enrollment proof",
+            "Income certificate"
+        ]
+    },
+    {
+        "id": "vidya_deevena",
+        "name": "YSR Vidya Deevena",
+        "category": "education",
+        "description": "Full tuition fee reimbursement for higher education students",
+        "eligible_occupation": [
+            "student"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST",
+            "BC",
+            "EBC",
+            "minority"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 17,
+        "max_age": 30,
+        "max_income": 250000,
+        "eligible_for": [
+            "student"
+        ],
+        "benefits": "Full fee reimbursement up to ₹15,000/year",
+        "apply_at": "College / Navasakam portal",
+        "documents": [
+            "Aadhaar",
+            "Income certificate",
+            "Caste certificate",
+            "TC",
+            "Admission proof"
+        ]
+    },
+    {
+        "id": "vasathi_deevena",
+        "name": "YSR Vasathi Deevena",
+        "category": "education",
+        "description": "Hostel and food expenses support for higher education students",
+        "eligible_occupation": [
+            "student"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST",
+            "BC",
+            "EBC",
+            "minority"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 17,
+        "max_age": 30,
+        "max_income": 250000,
+        "eligible_for": [
+            "student"
+        ],
+        "benefits": "₹10,000–₹20,000/year for hostel and food",
+        "apply_at": "College / Navasakam portal",
+        "documents": [
+            "Aadhaar",
+            "Income certificate",
+            "Caste certificate",
+            "Hostel enrollment proof"
+        ]
+    },
+    {
+        "id": "jagananna_vidya_kanuka",
+        "name": "Jagananna Vidya Kanuka",
+        "category": "education",
+        "description": "Free school kit (notebooks, uniform, shoes, bag) for school students",
+        "eligible_occupation": [
+            "student"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 5,
+        "max_age": 18,
+        "max_income": 999999,
+        "eligible_for": [
+            "school_student"
+        ],
+        "benefits": "Free kit worth ₹3,500 per year",
+        "apply_at": "Government school enrollment",
+        "documents": [
+            "Aadhaar",
+            "School enrollment proof"
+        ]
+    },
+    {
+        "id": "rythu_bharosa",
+        "name": "YSR Rythu Bharosa",
+        "category": "agriculture",
+        "description": "Investment support for farmers for agricultural expenses",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 70,
+        "max_income": 999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "₹13,500 per year (₹7,500 state + ₹6,000 PM Kisan)",
+        "apply_at": "Village Secretariat / Agriculture department",
+        "documents": [
+            "Aadhaar",
+            "Land records (Pattadar Passbook)",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "pm_kisan",
+        "name": "PM Kisan Samman Nidhi",
+        "category": "agriculture",
+        "description": "Central government income support for all farmers",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "₹6,000 per year in 3 installments",
+        "apply_at": "pmkisan.gov.in / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Land records",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "free_crop_insurance",
+        "name": "YSR Free Crop Insurance",
+        "category": "agriculture",
+        "description": "Free crop insurance premium paid by AP government for farmers",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 70,
+        "max_income": 999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "Premium-free crop insurance coverage",
+        "apply_at": "Village Secretariat / Agriculture department",
+        "documents": [
+            "Aadhaar",
+            "Land records",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_cheyutha",
+        "name": "YSR Cheyutha",
+        "category": "women_welfare",
+        "description": "Financial assistance for BC, SC, ST, minority women for livelihood",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST",
+            "BC",
+            "minority"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 45,
+        "max_age": 60,
+        "max_income": 999999,
+        "eligible_for": [
+            "woman"
+        ],
+        "benefits": "₹18,750 per year for 4 years",
+        "apply_at": "Navasakam portal / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Caste certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "sunna_vaddi",
+        "name": "YSR Sunna Vaddi",
+        "category": "women_welfare",
+        "description": "Zero interest loans for women self-help groups",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 999999,
+        "eligible_for": [
+            "woman",
+            "shg_member"
+        ],
+        "benefits": "Interest subvention on SHG loans (zero % interest effectively)",
+        "apply_at": "SERP / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "SHG membership proof",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "aarogyasri",
+        "name": "YSR Aarogyasri",
+        "category": "health",
+        "description": "Free healthcare for BPL families for major illnesses and surgeries",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 500000,
+        "eligible_for": [
+            "any"
+        ],
+        "benefits": "Free treatment up to ₹5 lakh/year at empanelled hospitals",
+        "apply_at": "Aarogyasri Health Card / Empanelled hospital",
+        "documents": [
+            "Aadhaar",
+            "Ration card",
+            "Income certificate"
+        ]
+    },
+    {
+        "id": "jagananna_suraksha",
+        "name": "Jagananna Suraksha",
+        "category": "health",
+        "description": "Health and life insurance for welfare scheme beneficiaries",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 70,
+        "max_income": 500000,
+        "eligible_for": [
+            "any"
+        ],
+        "benefits": "Life + accident insurance coverage",
+        "apply_at": "Village Secretariat / Navasakam",
+        "documents": [
+            "Aadhaar",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_housing",
+        "name": "YSR Housing (Pedalandru Illu)",
+        "category": "housing",
+        "description": "Free house construction for houseless poor families",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "houseless"
+        ],
+        "benefits": "Free house (₹1.8–2.3 lakh construction support)",
+        "apply_at": "Village Secretariat / APHMHIDC",
+        "documents": [
+            "Aadhaar",
+            "Income certificate",
+            "No house proof",
+            "Land ownership/allotment"
+        ]
+    },
+    {
+        "id": "ysr_pension_kanuka",
+        "name": "YSR Pension Kanuka",
+        "category": "pension",
+        "description": "Monthly pension for old age, widow, disabled, and fishermen",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 60,
+        "max_age": 99,
+        "max_income": 999999,
+        "eligible_for": [
+            "senior_citizen",
+            "widow",
+            "disabled"
+        ],
+        "benefits": "₹2,750–₹3,000/month pension",
+        "apply_at": "Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Age proof",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "jagananna_thodu",
+        "name": "Jagananna Thodu",
+        "category": "business",
+        "description": "Working capital support for street vendors and small businesses",
+        "eligible_occupation": [
+            "street_vendor",
+            "small_business"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 999999,
+        "eligible_for": [
+            "street_vendor",
+            "small_business"
+        ],
+        "benefits": "₹10,000 interest-free loan",
+        "apply_at": "Village Secretariat / Meeseva",
+        "documents": [
+            "Aadhaar",
+            "Bank account",
+            "Vendor ID if available"
+        ]
+    },
+    {
+        "id": "sc_corporation_loan",
+        "name": "AP SC Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Low interest loans for SC community members for business/education",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "sc_community"
+        ],
+        "benefits": "Loans at 3–4% interest for business/education up to ₹1 lakh",
+        "apply_at": "AP SC Corporation office / District Collector office",
+        "documents": [
+            "Aadhaar",
+            "Caste certificate",
+            "Income certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "st_corporation_loan",
+        "name": "AP ST Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Low interest loans for ST community members",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "ST"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "st_community"
+        ],
+        "benefits": "Loans at 3% interest for business/agriculture up to ₹1 lakh",
+        "apply_at": "AP ST Corporation office / District Collector office",
+        "documents": [
+            "Aadhaar",
+            "Caste certificate",
+            "Income certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "bc_corporation_loan",
+        "name": "AP BC Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Subsidized loans for BC community for self-employment",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "BC"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "bc_community"
+        ],
+        "benefits": "Loans at 4% interest up to ₹1 lakh",
+        "apply_at": "AP BC Corporation office",
+        "documents": [
+            "Aadhaar",
+            "Caste certificate",
+            "Income certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "minority_scholarship",
+        "name": "AP Minority Scholarship",
+        "category": "education",
+        "description": "Scholarship for minority students in higher education",
+        "eligible_occupation": [
+            "student"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "Muslim",
+            "Christian",
+            "Sikh",
+            "Buddhist",
+            "Parsi",
+            "Jain"
+        ],
+        "min_age": 17,
+        "max_age": 30,
+        "max_income": 200000,
+        "eligible_for": [
+            "minority_student"
+        ],
+        "benefits": "₹5,000–₹10,000/year scholarship",
+        "apply_at": "scholarships.gov.in / Minority Welfare dept",
+        "documents": [
+            "Aadhaar",
+            "Religion certificate",
+            "Income certificate",
+            "Admission proof"
+        ]
+    },
+    {
+        "id": "pmay_urban",
+        "name": "PMAY Urban (Housing for All)",
+        "category": "housing",
+        "description": "Central scheme for affordable housing in urban areas",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 1800000,
+        "eligible_for": [
+            "houseless",
+            "urban_resident"
+        ],
+        "benefits": "Subsidy up to ₹2.67 lakh on home loan interest",
+        "apply_at": "pmaymis.gov.in / Bank / ULB office",
+        "documents": [
+            "Aadhaar",
+            "Income proof",
+            "Bank account",
+            "No house affidavit"
+        ]
+    },
+    {
+        "id": "ntr_bharosa_pension",
+        "name": "NTR Bharosa Pension (Widow/Disabled)",
+        "category": "pension",
+        "description": "Monthly pension for widows, disabled persons, and single women",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 59,
+        "max_income": 999999,
+        "eligible_for": [
+            "widow",
+            "disabled",
+            "single_woman"
+        ],
+        "benefits": "₹2,750/month",
+        "apply_at": "Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Death certificate (widow)",
+            "Disability certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_nethanna_nestham",
+        "name": "YSR Nethanna Nestham",
+        "category": "financial_assistance",
+        "description": "Financial assistance to handloom weavers owning a handloom to modernize equipment and cover livelihood expenses",
+        "eligible_occupation": [
+            "weaver"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "weaver_owning_handloom"
+        ],
+        "benefits": "₹24,000 per year directly to the bank account",
+        "apply_at": "Village/Ward Secretariat / Navasakam portal",
+        "documents": [
+            "Aadhaar",
+            "Handloom ownership proof/certificate",
+            "Bank account",
+            "Income certificate"
+        ]
+    },
+    {
+        "id": "ysr_vahana_mitra",
+        "name": "YSR Vahana Mitra",
+        "category": "financial_assistance",
+        "description": "Financial assistance for self-employed auto-rickshaw, taxi, or maxi cab drivers to cover insurance and maintenance costs",
+        "eligible_occupation": [
+            "driver",
+            "auto_driver",
+            "taxi_driver"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 999999,
+        "eligible_for": [
+            "commercial_vehicle_owner_driver"
+        ],
+        "benefits": "₹10,000 per year per eligible driver",
+        "apply_at": "Transport Department / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Driving License",
+            "Vehicle Registration Certificate (RC)",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "jagananna_chedodu",
+        "name": "Jagananna Chedodu",
+        "category": "financial_assistance",
+        "description": "Direct benefit transfer to traditional occupations like Rajakas (washermen), Nayee Brahmins (barbers), and Tailors",
+        "eligible_occupation": [
+            "tailor",
+            "washerman",
+            "barber"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "BC",
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 250000,
+        "eligible_for": [
+            "traditional_artisans"
+        ],
+        "benefits": "₹10,000 per year financial assistance",
+        "apply_at": "Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Shop registration/Establishment certificate",
+            "Caste certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_kapu_nestham",
+        "name": "YSR Kapu Nestham",
+        "category": "women_welfare",
+        "description": "Empowering women of Kapu, Balija, Telaga and Ontari communities to enhance their livelihood and living standards",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "Kapu",
+            "Balija",
+            "Telaga",
+            "Ontari"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 45,
+        "max_age": 60,
+        "max_income": 300000,
+        "eligible_for": [
+            "kapu_community_women"
+        ],
+        "benefits": "₹15,000 per annum for five years",
+        "apply_at": "Navasakam portal / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Caste certificate",
+            "Income proof",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_matysakara_bharosa",
+        "name": "YSR Matsyakara Bharosa",
+        "category": "financial_assistance",
+        "description": "Financial assistance to fishermen during the annual fishing ban period",
+        "eligible_occupation": [
+            "fisherman"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 500000,
+        "eligible_for": [
+            "active_fisherman",
+            "boat_owner"
+        ],
+        "benefits": "₹10,000 compensation during marine fishing ban period. Also includes enhanced diesel subsidy.",
+        "apply_at": "Department of Fisheries / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Fisheries identity card",
+            "Boat registration (if applicable)",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "ysr_kalyanamasthu",
+        "name": "YSR Kalyanamasthu",
+        "category": "marriage_assistance",
+        "description": "Financial assistance for the marriage of daughters belonging to BPL families (SC/ST/BC/Minorities/Disabled)",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST",
+            "BC",
+            "minority"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "bpl_family_bride"
+        ],
+        "benefits": "₹40,000 to ₹1,00,000 based on community and inter-caste combinations",
+        "apply_at": "Navasakam portal / Register within 60 days of marriage",
+        "documents": [
+            "Aadhaar (Bride and Groom)",
+            "Tenth class certificates (mandatory for both)",
+            "Marriage certificate",
+            "Caste certificate"
+        ]
+    },
+    {
+        "id": "aadabidda_nidhi",
+        "name": "Aadabidda Nidhi",
+        "category": "women_welfare",
+        "description": "Monthly financial assistance given to women from economically weaker sections under Super Six promises",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 59,
+        "max_income": 300000,
+        "eligible_for": [
+            "woman",
+            "economically_weaker"
+        ],
+        "benefits": "₹1,500 per month (₹18,000 per year)",
+        "apply_at": "Village/Ward Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Income certificate",
+            "Bank account",
+            "Ration card"
+        ]
+    },
+    {
+        "id": "talliki_vandanam",
+        "name": "Talliki Vandanam",
+        "category": "education",
+        "description": "Financial assistance to encourage mothers to send their children to school (Super Six scheme replacing Amma Vodi)",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_income": 500000,
+        "eligible_for": [
+            "mother_of_schoolgoing_child"
+        ],
+        "benefits": "₹15,000 per year for every school-going child",
+        "apply_at": "School / Navasakam portal",
+        "documents": [
+            "Aadhaar",
+            "Child school enrollment proof",
+            "Income certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "deepam_2_0_free_gas",
+        "name": "Deepam 2.0 (Free Gas Cylinders)",
+        "category": "women_welfare",
+        "description": "Provision of three free LPG cylinders annually to eligible households",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 500000,
+        "eligible_for": [
+            "head_of_household",
+            "lpg_connection_holder"
+        ],
+        "benefits": "Cost of 3 LPG cylinders reimbursed into the bank account per year",
+        "apply_at": "LPG Distributor / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "LPG connection book",
+            "Ration card",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "annadatha_sukhibhava_2024",
+        "name": "Annadatha Sukhibhava (2024)",
+        "category": "agriculture",
+        "description": "Enhanced investment support to farmers for agricultural expenses (Super Six scheme)",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 999999,
+        "eligible_for": [
+            "farmer",
+            "tenant_farmer"
+        ],
+        "benefits": "₹20,000 per annum investment support",
+        "apply_at": "Agriculture Department / Village Secretariat",
+        "documents": [
+            "Aadhaar",
+            "Land records (Pattadar Passbook)",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "nirudyoga_bruthi_2024",
+        "name": "Nirudyoga Bruthi (Unemployment Allowance)",
+        "category": "youth_welfare",
+        "description": "Monthly unemployment allowance for educated jobless youth preparing for competitive exams",
+        "eligible_occupation": [
+            "unemployed"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 21,
+        "max_age": 35,
+        "max_income": 300000,
+        "eligible_for": [
+            "unemployed_graduate",
+            "diploma_holder"
+        ],
+        "benefits": "₹3,000 per month financial support",
+        "apply_at": "Skill Development Department / Employment Exchange",
+        "documents": [
+            "Aadhaar",
+            "Education certificates",
+            "Income certificate",
+            "Bank account"
+        ]
+    },
+    {
+        "id": "apsrtc_free_bus_women",
+        "name": "APSRTC Free Bus Scheme for Women",
+        "category": "transport",
+        "description": "Free travel facility in APSRTC ordinary and Palle Velugu buses for all women residing in Andhra Pradesh",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "any_woman_or_girl_child"
+        ],
+        "benefits": "Free Zero-Ticket travel in designated APSRTC buses",
+        "apply_at": "Directly in APSRTC buses",
+        "documents": [
+            "Aadhaar or any designated identity card establishing AP residence"
+        ]
+    }
+]
