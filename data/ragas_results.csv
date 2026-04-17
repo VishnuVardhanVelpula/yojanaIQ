@@ -1,4 +1,0 @@
-label,timestamp,faithfulness,answer_relevancy,context_precision,mean
-fix6_fix8_combined,2026-04-13 09:25:15,0.022,0.169,0.05,0.08
-fix6_fix8_combined,2026-04-14 02:11:14,0.0,0.126,0.05,0.059
-fix6_fix8_combined,2026-04-14 03:38:56,0.0,0.0,0.0,0.0
