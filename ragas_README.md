@@ -1,4 +1,4 @@
-# YojanaIQ RAGAS Integration (Fix 10)
+# YojanaIQ RAGAS Integration 
 
 This suite enables automated evaluation of the YojanaIQ RAG pipeline using the [RAGAS >0.2.0 framework](https://docs.ragas.io/). It assesses factual grounding, retrieval accuracy, and how well context is utilized.
 
