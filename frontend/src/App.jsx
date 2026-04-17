@@ -113,6 +113,26 @@ const getFlow = (lang) => {
       mapFunc: (o) => o.includes("Below") || o.includes("లోపు") || o.includes("से कम") ? 80000 : o.includes("1L –") ? 150000 : o.includes("2L") ? 350000 : o.includes("5L") ? 750000 : 1200000
     },
     {
+      key: "residence_type",
+      question: isTe ? "మీ నివాస ప్రాంతం ఏమిటి?" : isHi ? "आपका निवास क्षेत्र कौन सा है?" : "What is your residence area?",
+      options: isTe ? ["గ్రామీణ (పల్లె)", "పట్టణ (నగరం)"] : isHi ? ["ग्रामीण (गाँव)", "शहरी (शहर)"] : ["Rural (Village)", "Urban (Town/City)"],
+      mapFunc: (o) => o.includes("Rural") || o.includes("గ్రామీణ") || o.includes("ग्रामीण") ? "rural" : "urban"
+    },
+    {
+      key: "marital_status",
+      question: isTe ? "మీ వైవాహిక స్థితి ఏమిటి?" : isHi ? "आपकी वैवाहिक स्थिति क्या है?" : "What is your marital status?",
+      options: isTe ? ["వివాహిత (Married)", "అవివాహిత (Single)", "వితంతువు (Widowed)", "విడాకులు (Separated)"] : isHi ? ["विवाहित (Married)", "अविवाहित (Single)", "विधवा (Widowed)", "तलाकशुदा (Separated)"] : ["Married", "Single", "Widowed", "Separated"],
+      mapFunc: (o) => o.includes("Married") || o.includes("వివాహిత") || o.includes("विवाहित") ? "married"
+                      : o.includes("Single") || o.includes("అవివాహిత") || o.includes("अविवाहित") ? "single"
+                      : o.includes("Widow") || o.includes("వితంతువు") || o.includes("विधवा") ? "widowed" : "separated"
+    },
+    {
+      key: "houseless",
+      question: isTe ? "మీకు ప్రస్తుతం సొంత ఇల్లు లేదా? (నిరాశ్రయులు)" : isHi ? "क्या आपके पास अभी अपना घर नहीं है (बेघर)?" : "Do you currently not own a house (houseless)?",
+      options: isTe ? ["అవును, ఇల్లు లేదు", "కాదు, ఇల్లు ఉంది"] : isHi ? ["हाँ, घर नहीं है", "नहीं, घर है"] : ["Yes, I am houseless", "No, I have a house"],
+      mapFunc: (o) => Boolean(o.includes("Yes") || o.includes("అవును") || o.includes("हाँ"))
+    },
+    {
       key: "flags",
       question: isTe ? "చివరి ప్రశ్న! వీటిలో ఏదైనా మీకు వర్తిస్తుందా?\n(వర్తించే వాటన్నింటికీ టిక్ చేసి, 'నిర్ధారించండి' నొక్కండి)" 
                : isHi ? "आखिरी सवाल! क्या इनमें से कोई आप पर लागू होता है?\n(सभी लागू विकल्पों को चुनें, फिर 'पुष्टि करें' दबाएं)" 

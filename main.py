@@ -1,8 +1,9 @@
 import os
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
+import json
 
 from rule_filter import rule_filter
 from rag import run_rag
@@ -26,6 +27,9 @@ class UserProfile(BaseModel):
     income: int
     flags: Optional[List[str]] = []
     language: Optional[str] = "English"
+    residence_type: Optional[str] = "rural"
+    marital_status: Optional[str] = "married"
+    houseless: Optional[bool] = False
 
 class ChatRequest(BaseModel):
     profile: UserProfile
@@ -92,6 +96,63 @@ def chat_with_rag(req: ChatRequest):
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/vapi/webhook")
+async def vapi_webhook(request: Request):
+    """
+    Vapi Server URL endpoint to handle 'tool-calls'.
+    This allows the AI Phone Assistant to query our RAG system.
+    """
+    try:
+        body = await request.json()
+        message = body.get("message", {})
+        msg_type = message.get("type")
+
+        # Vapi calls this when the AI triggers the 'search_schemes' tool
+        if msg_type == "tool-calls":
+            tool_calls = message.get("toolCalls", [])
+            results = []
+
+            for call in tool_calls:
+                fn_name = call.get("function", {}).get("name")
+                call_id = call.get("id")
+
+                if fn_name == "search_schemes":
+                    params = call.get("function", {}).get("arguments", {})
+                    # Arguments can be a dict or a JSON string depending on Vapi config
+                    if isinstance(params, str):
+                        params = json.loads(params)
+
+                    query   = params.get("query", "")
+                    profile = params.get("profile", {})
+                    lang    = params.get("language", "English")
+
+                    # Ensure essential profile keys exist or have defaults
+                    default_profile = {
+                        "age": 30, "gender": "male", "caste": "OC",
+                        "religion": "Hindu", "occupation": "farmer", "income": 100000,
+                        "flags": [], "language": lang
+                    }
+                    final_profile = {**default_profile, **profile}
+
+                    # Execute RAG
+                    rag_res = run_rag(final_profile, user_query=query, language=lang)
+                    
+                    # Vapi expect results in a 'results' array corresponding to toolCalls
+                    results.append({
+                        "toolCallId": call_id,
+                        "result": rag_res.get("answer", "No information found.")
+                    })
+
+            return {"results": results}
+
+        # If Vapi is just sending a status update or other message
+        return {"status": "success"}
+
+    except Exception as e:
+        print(f"Vapi Webhook Error: {e}")
+        # Even on error, return a valid JSON so Vapi doesn't hang
+        return {"error": str(e)}
 
 if __name__ == "__main__":
     import uvicorn

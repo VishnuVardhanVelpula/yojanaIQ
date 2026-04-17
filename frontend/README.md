@@ -1,16 +1,63 @@
-# React + Vite
+# 🌐 YojanaIQ Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The user-facing web portal for YojanaIQ, built with **React** and **Vite**. It features a premium, responsive design that guides users through the welfare scheme discovery process.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: TailwindCSS
+- **State Management**: React Hooks (Context API)
+- **Deployment**: Optimized for Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Environment Configuration
+
+Create a `.env` file in this directory (or copy from `.env.example`):
+
+```env
+VITE_API_URL=http://localhost:8000
+```
+
+- For local development, point this to your local FastAPI server.
+- For production, point this to your deployed Render/Railway URL.
+
+### 2. Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+### 3. Production Build
+
+```bash
+npm run build
+```
+
+The production-ready assets will be generated in the `dist/` folder.
+
+---
+
+## 🎨 UI/UX Design
+
+The frontend implements a high-contrast dark theme designed for accessibility and clarity. It uses a step-by-step modular form to collect user eligibility data without overwhelming the interface.
+
+---
+
+## 📦 Deployment to Vercel
+
+1. Connect this repository to Vercel.
+2. Set the **Root Directory** to `frontend`.
+3. Add the `VITE_API_URL` environment variable.
+4. Deploy!

@@ -209,13 +209,36 @@ for idx, s in enumerate(schemes):
     story.append(Paragraph(docs_text or "—", value_style))
     story.append(Spacer(1, 8))
 
-    # ── Apply at ─────────────────────────────────────────────────────────────
-    story.append(Paragraph("How to Apply", ParagraphStyle(
-        "ApplyHeader", parent=styles["Heading2"],
+    # ── Application Steps ─────────────────────────────────────────────────────
+    if "application_steps" in s and s["application_steps"]:
+        story.append(Paragraph("Application Steps", ParagraphStyle(
+            "StepHeader", parent=styles["Heading2"],
+            fontSize=11, textColor=INDIGO, spaceBefore=4, spaceAfter=4,
+            fontName="Helvetica-Bold"
+        )))
+        for step in s["application_steps"]:
+            story.append(Paragraph(step, value_style))
+        story.append(Spacer(1, 8))
+
+    # ── Quick Info ─────────────────────────────────────────────────────────────
+    def add_meta(label, val):
+        if val and val != "N/A":
+            story.append(Paragraph(f"<b>{label}:</b> {val}", value_style))
+
+    story.append(Paragraph("Additional Information", ParagraphStyle(
+        "AddInfoHeader", parent=styles["Heading2"],
         fontSize=11, textColor=INDIGO, spaceBefore=4, spaceAfter=4,
         fontName="Helvetica-Bold"
     )))
-    story.append(Paragraph(s.get("apply_at", "—"), value_style))
+    
+    add_meta("How to Apply", s.get("apply_at"))
+    add_meta("Apply Portal", s.get("apply_portal"))
+    add_meta("Status Check Portal", s.get("status_check_portal"))
+    add_meta("Offline Office", s.get("offline_office"))
+    add_meta("Processing Time", s.get("processing_time"))
+    add_meta("Helpline", s.get("helpline"))
+    if "exclusions" in s and s["exclusions"]:
+        add_meta("Exclusions", s["exclusions"])
 
     # ── Page break between schemes ────────────────────────────────────────────
     if idx < len(schemes) - 1:

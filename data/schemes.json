@@ -1,9 +1,9 @@
 [
     {
-        "id": "amma_vodi",
-        "name": "Amma Vodi",
+        "id": "talliki_vandanam",
+        "name": "Talliki Vandanam",
         "category": "education",
-        "description": "Financial assistance to mothers to send children to school",
+        "description": "Financial assistance of ₹15,000/year to mothers whose children attend government schools. TDP Super Six scheme replacing Amma Vodi.",
         "eligible_occupation": [
             "any"
         ],
@@ -18,96 +18,45 @@
         ],
         "min_age": 18,
         "max_age": 60,
-        "max_income": 500000,
+        "max_income": 250000,
         "eligible_for": [
             "mother_of_schoolgoing_child"
         ],
-        "benefits": "₹15,000 per year per child studying in government school",
-        "apply_at": "Nearest school / Navasakam portal",
+        "benefits": "₹15,000 per year per child enrolled in a government school (min 75% attendance required)",
+        "apply_portal": "https://nadunedu.se.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "school_headmaster",
+            "grama_sachivalayam"
+        ],
+        "helpline": "1800-425-0082",
+        "apply_at": "Child's school headmaster — no direct application by parent needed",
         "documents": [
-            "Aadhaar",
-            "Child school enrollment proof",
-            "Income certificate"
-        ]
+            "Aadhaar card of mother (must be linked to bank account)",
+            "Child's school enrollment certificate (TC or admission letter)",
+            "Child's Aadhaar card",
+            "Mother's bank passbook (Aadhaar-seeded, NPCI-linked)",
+            "Income certificate (annual income below ₹2.5 lakh)",
+            "Ration card / Family ID"
+        ],
+        "application_steps": [
+            "Step 1: Visit your child's school and inform the headmaster you want to register for Talliki Vandanam.",
+            "Step 2: Headmaster enters data on the official portal nadunedu.se.ap.gov.in with student Aadhaar.",
+            "Step 3: Mandal Education Officer (MEO) verifies the data.",
+            "Step 4: Ensure your bank account is Aadhaar-linked and NPCI-enabled before June 12 each year.",
+            "Step 5: ₹15,000 is transferred directly to mother's Aadhaar-linked bank account via DBT.",
+            "Step 6: If marked ineligible, raise a grievance at your nearest Grama/Ward Sachivalayam or on gsws-nbm.ap.gov.in."
+        ],
+        "offline_office": "Child's school headmaster or nearest Grama Sachivalayam",
+        "processing_time": "Disbursed annually in June, within 1 week of academic year start",
+        "exclusions": "Families with government employees, income taxpayers, or four-wheeler owners (except autos) are excluded.",
+        "last_verified": "2025-06"
     },
     {
-        "id": "vidya_deevena",
-        "name": "YSR Vidya Deevena",
+        "id": "srkvm_kit",
+        "name": "Sarvepalli Radhakrishnan Vidyarthi Mitra Kit",
         "category": "education",
-        "description": "Full tuition fee reimbursement for higher education students",
-        "eligible_occupation": [
-            "student"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "SC",
-            "ST",
-            "BC",
-            "EBC",
-            "minority"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 17,
-        "max_age": 30,
-        "max_income": 250000,
-        "eligible_for": [
-            "student"
-        ],
-        "benefits": "Full fee reimbursement up to ₹15,000/year",
-        "apply_at": "College / Navasakam portal",
-        "documents": [
-            "Aadhaar",
-            "Income certificate",
-            "Caste certificate",
-            "TC",
-            "Admission proof"
-        ]
-    },
-    {
-        "id": "vasathi_deevena",
-        "name": "YSR Vasathi Deevena",
-        "category": "education",
-        "description": "Hostel and food expenses support for higher education students",
-        "eligible_occupation": [
-            "student"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "SC",
-            "ST",
-            "BC",
-            "EBC",
-            "minority"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 17,
-        "max_age": 30,
-        "max_income": 250000,
-        "eligible_for": [
-            "student"
-        ],
-        "benefits": "₹10,000–₹20,000/year for hostel and food",
-        "apply_at": "College / Navasakam portal",
-        "documents": [
-            "Aadhaar",
-            "Income certificate",
-            "Caste certificate",
-            "Hostel enrollment proof"
-        ]
-    },
-    {
-        "id": "jagananna_vidya_kanuka",
-        "name": "Jagananna Vidya Kanuka",
-        "category": "education",
-        "description": "Free school kit (notebooks, uniform, shoes, bag) for school students",
+        "description": "Free school kit (uniform, shoes, bag, textbooks, notebooks, stationery) for Class 1–10 students in AP government schools. Renamed from Jagananna Vidya Kanuka.",
         "eligible_occupation": [
             "student"
         ],
@@ -121,437 +70,152 @@
             "any"
         ],
         "min_age": 5,
-        "max_age": 18,
-        "max_income": 999999,
+        "max_age": 16,
+        "max_income": 9999999,
         "eligible_for": [
             "school_student"
         ],
-        "benefits": "Free kit worth ₹3,500 per year",
-        "apply_at": "Government school enrollment",
+        "benefits": "Free kit worth ₹1,858 per student per year (uniforms, shoes, bag, books, stationery)",
+        "apply_portal": "https://se.ap.gov.in/",
+        "status_check_portal": "https://se.ap.gov.in/",
+        "apply_mode": [
+            "automatic_school_distribution"
+        ],
+        "helpline": "1800-425-0082",
+        "apply_at": "Automatically distributed at government school — no application needed",
         "documents": [
-            "Aadhaar",
-            "School enrollment proof"
-        ]
+            "School enrollment (distribution is fully automatic — no documents required from student)"
+        ],
+        "application_steps": [
+            "Step 1: No application required. Kits are automatically distributed at the start of each academic year.",
+            "Step 2: Student must be enrolled in an AP Government school (Class 1–10).",
+            "Step 3: Kit is distributed on the first day of school by the headmaster.",
+            "Step 4: If kit is not received, inform the headmaster or contact the Mandal Education Officer (MEO)."
+        ],
+        "offline_office": "School headmaster or Mandal Education Officer (MEO)",
+        "processing_time": "Distributed at the start of each academic year (June)",
+        "last_verified": "2025-06"
     },
     {
-        "id": "rythu_bharosa",
-        "name": "YSR Rythu Bharosa",
-        "category": "agriculture",
-        "description": "Investment support for farmers for agricultural expenses",
+        "id": "post_matric_scholarship_rtf",
+        "name": "Post Matric Scholarship – Tuition Fee (RTF)",
+        "category": "education",
+        "description": "Full reimbursement of tuition fees for SC/ST/BC/EBC/Minority students in higher education. Renamed from Jagananna Vidya Deevena by TDP govt (June 2024).",
         "eligible_occupation": [
-            "farmer"
+            "student"
         ],
         "eligible_gender": [
             "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 70,
-        "max_income": 999999,
-        "eligible_for": [
-            "farmer"
-        ],
-        "benefits": "₹13,500 per year (₹7,500 state + ₹6,000 PM Kisan)",
-        "apply_at": "Village Secretariat / Agriculture department",
-        "documents": [
-            "Aadhaar",
-            "Land records (Pattadar Passbook)",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "pm_kisan",
-        "name": "PM Kisan Samman Nidhi",
-        "category": "agriculture",
-        "description": "Central government income support for all farmers",
-        "eligible_occupation": [
-            "farmer"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
-        "max_income": 999999,
-        "eligible_for": [
-            "farmer"
-        ],
-        "benefits": "₹6,000 per year in 3 installments",
-        "apply_at": "pmkisan.gov.in / Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Land records",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "free_crop_insurance",
-        "name": "YSR Free Crop Insurance",
-        "category": "agriculture",
-        "description": "Free crop insurance premium paid by AP government for farmers",
-        "eligible_occupation": [
-            "farmer"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 70,
-        "max_income": 999999,
-        "eligible_for": [
-            "farmer"
-        ],
-        "benefits": "Premium-free crop insurance coverage",
-        "apply_at": "Village Secretariat / Agriculture department",
-        "documents": [
-            "Aadhaar",
-            "Land records",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "ysr_cheyutha",
-        "name": "YSR Cheyutha",
-        "category": "women_welfare",
-        "description": "Financial assistance for BC, SC, ST, minority women for livelihood",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "female"
         ],
         "eligible_caste": [
             "SC",
             "ST",
             "BC",
+            "EBC",
             "minority"
         ],
         "eligible_religion": [
             "any"
         ],
-        "min_age": 45,
-        "max_age": 60,
-        "max_income": 999999,
+        "min_age": 17,
+        "max_age": 30,
+        "max_income": 250000,
         "eligible_for": [
-            "woman"
+            "student"
         ],
-        "benefits": "₹18,750 per year for 4 years",
-        "apply_at": "Navasakam portal / Village Secretariat",
+        "benefits": "Full tuition fee reimbursement for eligible courses at recognised colleges",
+        "apply_portal": "https://scholarships.ap.gov.in/",
+        "status_check_portal": "https://scholarships.ap.gov.in/",
+        "apply_mode": [
+            "online_portal",
+            "college_nodal_officer"
+        ],
+        "helpline": "1800-425-3014",
+        "apply_at": "College nodal officer + scholarships.ap.gov.in",
         "documents": [
-            "Aadhaar",
+            "Aadhaar card",
+            "Caste certificate (SC/ST/BC/EBC/Minority)",
+            "Income certificate (annual income below ₹2.5 lakh)",
+            "Transfer Certificate (TC) from previous institution",
+            "College admission proof / fee receipt",
+            "Bank passbook (Aadhaar-linked)",
+            "Marks memo of qualifying exam (10th/Intermediate)"
+        ],
+        "application_steps": [
+            "Step 1: Visit your college's scholarship nodal officer or open scholarships.ap.gov.in.",
+            "Step 2: Register with Aadhaar number and mobile number.",
+            "Step 3: Fill in the online application form — select RTF (Reimbursement of Tuition Fee).",
+            "Step 4: Upload all required documents (caste certificate, income certificate, fee receipt).",
+            "Step 5: College principal verifies and forwards application to the Welfare Department.",
+            "Step 6: Fee is reimbursed directly to the college account or student bank account.",
+            "Step 7: Track status on scholarships.ap.gov.in using your application number."
+        ],
+        "offline_office": "College scholarship nodal officer or District SC/ST/BC Welfare Office",
+        "processing_time": "3–6 months after application submission",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "post_matric_scholarship_mtf",
+        "name": "Post Matric Scholarship – Maintenance Fee (MTF)",
+        "category": "education",
+        "description": "Hostel and food expenses support for SC/ST/BC/EBC/Minority students in higher education. Renamed from Jagananna Vasathi Deevena by TDP govt (June 2024).",
+        "eligible_occupation": [
+            "student"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST",
+            "BC",
+            "EBC",
+            "minority"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 17,
+        "max_age": 30,
+        "max_income": 250000,
+        "eligible_for": [
+            "student"
+        ],
+        "benefits": "₹10,000–₹20,000/year for hostel and maintenance charges",
+        "apply_portal": "https://scholarships.ap.gov.in/",
+        "status_check_portal": "https://scholarships.ap.gov.in/",
+        "apply_mode": [
+            "online_portal",
+            "college_nodal_officer"
+        ],
+        "helpline": "1800-425-3014",
+        "apply_at": "College nodal officer + scholarships.ap.gov.in",
+        "documents": [
+            "Aadhaar card",
             "Caste certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "sunna_vaddi",
-        "name": "YSR Sunna Vaddi",
-        "category": "women_welfare",
-        "description": "Zero interest loans for women self-help groups",
-        "eligible_occupation": [
-            "any"
+            "Income certificate (below ₹2.5 lakh/year)",
+            "Hostel enrollment proof / hostel fee receipt",
+            "College admission proof",
+            "Bank passbook (Aadhaar-linked)",
+            "Marks memo of qualifying exam"
         ],
-        "eligible_gender": [
-            "female"
+        "application_steps": [
+            "Step 1: Go to scholarships.ap.gov.in and register with Aadhaar.",
+            "Step 2: Select MTF (Maintenance Fee) scheme for your welfare category.",
+            "Step 3: Upload hostel enrollment proof and all required documents.",
+            "Step 4: College nodal officer verifies your hostel status.",
+            "Step 5: Welfare Department disburses amount directly to your bank account.",
+            "Step 6: Check disbursement status on scholarships.ap.gov.in."
         ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 60,
-        "max_income": 999999,
-        "eligible_for": [
-            "woman",
-            "shg_member"
-        ],
-        "benefits": "Interest subvention on SHG loans (zero % interest effectively)",
-        "apply_at": "SERP / Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "SHG membership proof",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "aarogyasri",
-        "name": "YSR Aarogyasri",
-        "category": "health",
-        "description": "Free healthcare for BPL families for major illnesses and surgeries",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 0,
-        "max_age": 99,
-        "max_income": 500000,
-        "eligible_for": [
-            "any"
-        ],
-        "benefits": "Free treatment up to ₹5 lakh/year at empanelled hospitals",
-        "apply_at": "Aarogyasri Health Card / Empanelled hospital",
-        "documents": [
-            "Aadhaar",
-            "Ration card",
-            "Income certificate"
-        ]
-    },
-    {
-        "id": "jagananna_suraksha",
-        "name": "Jagananna Suraksha",
-        "category": "health",
-        "description": "Health and life insurance for welfare scheme beneficiaries",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 70,
-        "max_income": 500000,
-        "eligible_for": [
-            "any"
-        ],
-        "benefits": "Life + accident insurance coverage",
-        "apply_at": "Village Secretariat / Navasakam",
-        "documents": [
-            "Aadhaar",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "ysr_housing",
-        "name": "YSR Housing (Pedalandru Illu)",
-        "category": "housing",
-        "description": "Free house construction for houseless poor families",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
-        "max_income": 300000,
-        "eligible_for": [
-            "houseless"
-        ],
-        "benefits": "Free house (₹1.8–2.3 lakh construction support)",
-        "apply_at": "Village Secretariat / APHMHIDC",
-        "documents": [
-            "Aadhaar",
-            "Income certificate",
-            "No house proof",
-            "Land ownership/allotment"
-        ]
-    },
-    {
-        "id": "ysr_pension_kanuka",
-        "name": "YSR Pension Kanuka",
-        "category": "pension",
-        "description": "Monthly pension for old age, widow, disabled, and fishermen",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 60,
-        "max_age": 99,
-        "max_income": 999999,
-        "eligible_for": [
-            "senior_citizen",
-            "widow",
-            "disabled"
-        ],
-        "benefits": "₹2,750–₹3,000/month pension",
-        "apply_at": "Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Age proof",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "jagananna_thodu",
-        "name": "Jagananna Thodu",
-        "category": "business",
-        "description": "Working capital support for street vendors and small businesses",
-        "eligible_occupation": [
-            "street_vendor",
-            "small_business"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 60,
-        "max_income": 999999,
-        "eligible_for": [
-            "street_vendor",
-            "small_business"
-        ],
-        "benefits": "₹10,000 interest-free loan",
-        "apply_at": "Village Secretariat / Meeseva",
-        "documents": [
-            "Aadhaar",
-            "Bank account",
-            "Vendor ID if available"
-        ]
-    },
-    {
-        "id": "sc_corporation_loan",
-        "name": "AP SC Corporation Loan",
-        "category": "financial_assistance",
-        "description": "Low interest loans for SC community members for business/education",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "SC"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 55,
-        "max_income": 300000,
-        "eligible_for": [
-            "sc_community"
-        ],
-        "benefits": "Loans at 3–4% interest for business/education up to ₹1 lakh",
-        "apply_at": "AP SC Corporation office / District Collector office",
-        "documents": [
-            "Aadhaar",
-            "Caste certificate",
-            "Income certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "st_corporation_loan",
-        "name": "AP ST Corporation Loan",
-        "category": "financial_assistance",
-        "description": "Low interest loans for ST community members",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "ST"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 55,
-        "max_income": 300000,
-        "eligible_for": [
-            "st_community"
-        ],
-        "benefits": "Loans at 3% interest for business/agriculture up to ₹1 lakh",
-        "apply_at": "AP ST Corporation office / District Collector office",
-        "documents": [
-            "Aadhaar",
-            "Caste certificate",
-            "Income certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "bc_corporation_loan",
-        "name": "AP BC Corporation Loan",
-        "category": "financial_assistance",
-        "description": "Subsidized loans for BC community for self-employment",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "BC"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 55,
-        "max_income": 300000,
-        "eligible_for": [
-            "bc_community"
-        ],
-        "benefits": "Loans at 4% interest up to ₹1 lakh",
-        "apply_at": "AP BC Corporation office",
-        "documents": [
-            "Aadhaar",
-            "Caste certificate",
-            "Income certificate",
-            "Bank account"
-        ]
+        "offline_office": "College scholarship nodal officer or District Welfare Office",
+        "processing_time": "3–6 months after submission",
+        "last_verified": "2025-06"
     },
     {
         "id": "minority_scholarship",
         "name": "AP Minority Scholarship",
         "category": "education",
-        "description": "Scholarship for minority students in higher education",
+        "description": "Central + state scholarship for minority community students in higher education.",
         "eligible_occupation": [
             "student"
         ],
@@ -575,22 +239,43 @@
         "eligible_for": [
             "minority_student"
         ],
-        "benefits": "₹5,000–₹10,000/year scholarship",
-        "apply_at": "scholarships.gov.in / Minority Welfare dept",
+        "benefits": "₹5,000–₹10,000/year scholarship for pre-matric and post-matric courses",
+        "apply_portal": "https://scholarships.gov.in/",
+        "status_check_portal": "https://scholarships.gov.in/",
+        "apply_mode": [
+            "national_scholarship_portal",
+            "minority_welfare_department"
+        ],
+        "helpline": "0120-6619540",
+        "apply_at": "National Scholarship Portal scholarships.gov.in or AP Minority Welfare Department",
         "documents": [
-            "Aadhaar",
-            "Religion certificate",
-            "Income certificate",
-            "Admission proof"
-        ]
+            "Aadhaar card",
+            "Religion/community certificate from competent authority",
+            "Income certificate (below ₹2 lakh/year)",
+            "Previous year marksheet",
+            "Admission proof / fee receipt",
+            "Bank passbook (Aadhaar-linked)"
+        ],
+        "application_steps": [
+            "Step 1: Visit scholarships.gov.in — the National Scholarship Portal (NSP).",
+            "Step 2: Click 'New Registration' and register with Aadhaar-linked mobile number.",
+            "Step 3: Login and fill the scholarship application form under 'Ministry of Minority Affairs' schemes.",
+            "Step 4: Upload religion certificate, income certificate, and admission proof.",
+            "Step 5: Submit and note your application ID.",
+            "Step 6: Institute verifies the application online.",
+            "Step 7: Check payment status on NSP portal using application number."
+        ],
+        "offline_office": "AP Minority Welfare Department District Office or nearest Meeseva Centre",
+        "processing_time": "3–4 months from submission deadline",
+        "last_verified": "2025-06"
     },
     {
-        "id": "pmay_urban",
-        "name": "PMAY Urban (Housing for All)",
-        "category": "housing",
-        "description": "Central scheme for affordable housing in urban areas",
+        "id": "annadata_sukhibhava",
+        "name": "Annadata Sukhibhava",
+        "category": "agriculture",
+        "description": "TDP Super Six flagship scheme providing ₹20,000/year investment support to farmers. Higher than the previous Rythu Bharosa (₹13,500/year).",
         "eligible_occupation": [
-            "any"
+            "farmer"
         ],
         "eligible_gender": [
             "any"
@@ -603,30 +288,257 @@
         ],
         "min_age": 18,
         "max_age": 99,
-        "max_income": 1800000,
+        "max_income": 9999999,
         "eligible_for": [
-            "houseless",
-            "urban_resident"
+            "farmer",
+            "tenant_farmer"
         ],
-        "benefits": "Subsidy up to ₹2.67 lakh on home loan interest",
-        "apply_at": "pmaymis.gov.in / Bank / ULB office",
+        "benefits": "₹20,000 per year investment support in installments. Includes seeds, fertilizers and natural disaster compensation.",
+        "apply_portal": "https://apagrisnet.gov.in/",
+        "status_check_portal": "https://apagrisnet.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "agriculture_department"
+        ],
+        "helpline": "1800-425-2977",
+        "apply_at": "Grama Sachivalayam / Mandal Agriculture Officer (MAO)",
         "documents": [
-            "Aadhaar",
-            "Income proof",
-            "Bank account",
-            "No house affidavit"
-        ]
+            "Aadhaar card (linked to bank account)",
+            "Pattadar Passbook (land ownership records)",
+            "Bank passbook (Aadhaar-seeded and NPCI-linked)",
+            "Mobile number linked to Aadhaar",
+            "Tenant farming agreement (if applicable for tenant farmers)"
+        ],
+        "application_steps": [
+            "Step 1: Visit your nearest Grama Sachivalayam with all documents.",
+            "Step 2: Request the Digital Assistant (DA) to register you for Annadata Sukhibhava.",
+            "Step 3: DA enters your Aadhaar, land records, and bank details into the system.",
+            "Step 4: Mandal Agriculture Officer (MAO) verifies land records.",
+            "Step 5: Note your Service Request Number for tracking.",
+            "Step 6: Check payment status at apagrisnet.gov.in or sspensions.ap.gov.in using Aadhaar.",
+            "Step 7: ₹20,000 is released in installments directly to your Aadhaar-linked bank account."
+        ],
+        "offline_office": "Mandal Agriculture Officer (MAO) or Grama Sachivalayam",
+        "processing_time": "30–45 days for initial registration; disbursals are seasonal (Kharif/Rabi)",
+        "last_verified": "2025-06"
     },
     {
-        "id": "ntr_bharosa_pension",
-        "name": "NTR Bharosa Pension (Widow/Disabled)",
-        "category": "pension",
-        "description": "Monthly pension for widows, disabled persons, and single women",
+        "id": "pm_kisan",
+        "name": "PM Kisan Samman Nidhi",
+        "category": "agriculture",
+        "description": "Central government income support of ₹6,000/year for all landholder farmers in India.",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "₹6,000 per year in 3 equal installments of ₹2,000 directly to bank account",
+        "apply_portal": "https://pmkisan.gov.in/",
+        "status_check_portal": "https://pmkisan.gov.in/BeneficiaryStatus/BeneficiaryStatus.aspx",
+        "apply_mode": [
+            "pmkisan_portal",
+            "grama_sachivalayam",
+            "csc_centre"
+        ],
+        "helpline": "155261 / 1800-115-526",
+        "apply_at": "pmkisan.gov.in or Grama Sachivalayam or CSC (Common Service Centre)",
+        "documents": [
+            "Aadhaar card",
+            "Land records / Pattadar Passbook",
+            "Bank passbook (Aadhaar-linked)",
+            "Mobile number"
+        ],
+        "application_steps": [
+            "Step 1: Visit pmkisan.gov.in and click 'Farmers Corner' → 'New Farmer Registration'.",
+            "Step 2: Enter Aadhaar number, select Andhra Pradesh, and fill in registration form.",
+            "Step 3: Upload land records and bank details.",
+            "Step 4: Submit — you will get a registration number.",
+            "Step 5: Alternatively, visit your nearest Grama Sachivalayam or CSC centre for offline registration.",
+            "Step 6: Check payment / beneficiary status at pmkisan.gov.in → 'Beneficiary Status' using Aadhaar or mobile number."
+        ],
+        "offline_office": "Grama Sachivalayam or CSC (Common Service Centre) at Panchayat level",
+        "processing_time": "4–8 weeks for first installment after verification",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ap_free_crop_insurance",
+        "name": "AP Free Crop Insurance (PMFBY)",
+        "category": "agriculture",
+        "description": "AP government pays the farmer's share of the crop insurance premium under PMFBY, making it effectively free for enrolled farmers.",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 70,
+        "max_income": 9999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "Premium-free crop insurance. Compensation paid for crop loss due to natural disasters, pests or drought.",
+        "apply_portal": "https://pmfby.gov.in/",
+        "status_check_portal": "https://pmfby.gov.in/applicationStatus",
+        "apply_mode": [
+            "nearest_bank",
+            "grama_sachivalayam",
+            "pmfby_portal"
+        ],
+        "helpline": "1800-200-7710",
+        "apply_at": "Nearest bank or Grama Sachivalayam before crop sowing season deadline",
+        "documents": [
+            "Aadhaar card",
+            "Pattadar Passbook / land records",
+            "Bank passbook (Aadhaar-linked)",
+            "Sowing declaration (khasra form filled by village patwari/VRO)",
+            "Mobile number"
+        ],
+        "application_steps": [
+            "Step 1: Apply before the deadline — Kharif deadline is July 31, Rabi deadline is December 31.",
+            "Step 2: Visit your nearest bank branch (where loan/KCC is held) or Grama Sachivalayam.",
+            "Step 3: Submit Aadhaar, land records, and sowing declaration.",
+            "Step 4: Bank or DA registers you on the PMFBY portal — AP government pays your premium share.",
+            "Step 5: Collect your policy/enrollment number.",
+            "Step 6: In case of crop loss, report within 72 hours by calling 1800-200-7710 or through Grama Sachivalayam.",
+            "Step 7: Check claim status on pmfby.gov.in using application ID or Aadhaar."
+        ],
+        "offline_office": "Bank (where KCC/crop loan account is held) or Grama Sachivalayam or Agriculture Department",
+        "processing_time": "Claims settled within 60 days of crop loss verification",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ap_free_power_farmers",
+        "name": "AP Free Power Supply – Farmers",
+        "category": "agriculture",
+        "description": "9 hours of free daytime electricity for agricultural connections. Budget of ₹4,525 crore allocated. Active under TDP govt.",
+        "eligible_occupation": [
+            "farmer"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "farmer"
+        ],
+        "benefits": "9 hours of free daytime electricity per day for agricultural use (up to 5 HP motor connection)",
+        "apply_portal": "https://apepdcl.in/",
+        "status_check_portal": "https://apepdcl.in/",
+        "apply_mode": [
+            "meeseva",
+            "apepdcl_office",
+            "apspdcl_office"
+        ],
+        "helpline": "1912 (APEPDCL) / 1912 (APSPDCL)",
+        "apply_at": "APEPDCL / APSPDCL local section office or Meeseva Centre",
+        "documents": [
+            "Aadhaar card",
+            "Agricultural electricity connection service number",
+            "Pattadar Passbook / land records",
+            "Bank passbook"
+        ],
+        "application_steps": [
+            "Step 1: Ensure you have an existing agricultural electricity connection (IP set connection).",
+            "Step 2: If not registered, visit your nearest APEPDCL/APSPDCL section office.",
+            "Step 3: Submit Aadhaar and land records for Aadhaar-seeding of your electricity account.",
+            "Step 4: Once seeded, free power supply benefit is activated automatically — no further steps.",
+            "Step 5: For new agricultural connection, apply at Meeseva or DISCOM office with land records.",
+            "Step 6: For complaints, call 1912 (toll-free)."
+        ],
+        "offline_office": "APEPDCL Section Office (North AP) or APSPDCL Section Office (South AP) or Meeseva Centre",
+        "processing_time": "Benefit is automatic once connection is registered with Aadhaar",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ap_free_power_sc_st",
+        "name": "AP Free Power Supply – SC/ST Households",
+        "category": "agriculture",
+        "description": "Free electricity up to 200 units/month for SC and ST households under Babu Jagajeevan Ram Jeevana Jyothi Scheme.",
         "eligible_occupation": [
             "any"
         ],
         "eligible_gender": [
             "any"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "sc_community",
+            "st_community"
+        ],
+        "benefits": "Free electricity up to 200 units per month for domestic use",
+        "apply_portal": "https://apepdcl.in/",
+        "status_check_portal": "https://apepdcl.in/",
+        "apply_mode": [
+            "apepdcl_office",
+            "apspdcl_office",
+            "meeseva"
+        ],
+        "helpline": "1912",
+        "apply_at": "APEPDCL / APSPDCL local section office or Meeseva Centre",
+        "documents": [
+            "Aadhaar card",
+            "Caste certificate (SC/ST issued by MRO/Tahsildar)",
+            "Electricity consumer number (service connection number)",
+            "Bank passbook (for subsidy credit)"
+        ],
+        "application_steps": [
+            "Step 1: Visit your nearest APEPDCL/APSPDCL section office or Meeseva Centre.",
+            "Step 2: Submit Aadhaar and SC/ST caste certificate for registration.",
+            "Step 3: DA seeds your caste data to your electricity consumer account.",
+            "Step 4: Free units up to 200/month are automatically applied to your electricity bill.",
+            "Step 5: For issues, call 1912 or visit the section office."
+        ],
+        "offline_office": "APEPDCL or APSPDCL Section Office / Meeseva Centre",
+        "processing_time": "Benefit activated within 15–30 days of registration",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "aadabidda_nidhi",
+        "name": "Aadabidda Nidhi",
+        "category": "women_welfare",
+        "description": "₹1,500/month direct cash transfer to women from economically weaker sections. TDP Super Six scheme, actively disbursed.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
         ],
         "eligible_caste": [
             "any"
@@ -636,127 +548,45 @@
         ],
         "min_age": 18,
         "max_age": 59,
-        "max_income": 999999,
-        "eligible_for": [
-            "widow",
-            "disabled",
-            "single_woman"
-        ],
-        "benefits": "₹2,750/month",
-        "apply_at": "Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Death certificate (widow)",
-            "Disability certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "ysr_nethanna_nestham",
-        "name": "YSR Nethanna Nestham",
-        "category": "financial_assistance",
-        "description": "Financial assistance to handloom weavers owning a handloom to modernize equipment and cover livelihood expenses",
-        "eligible_occupation": [
-            "weaver"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
         "max_income": 300000,
         "eligible_for": [
-            "weaver_owning_handloom"
+            "woman",
+            "economically_weaker"
         ],
-        "benefits": "₹24,000 per year directly to the bank account",
-        "apply_at": "Village/Ward Secretariat / Navasakam portal",
+        "benefits": "₹1,500 per month (₹18,000/year) directly to bank account",
+        "apply_portal": "https://gsws-nbm.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "ward_secretariat"
+        ],
+        "helpline": "1902",
+        "apply_at": "Nearest Grama Sachivalayam or Ward Secretariat",
         "documents": [
-            "Aadhaar",
-            "Handloom ownership proof/certificate",
-            "Bank account",
-            "Income certificate"
-        ]
+            "Aadhaar card (must be linked to bank account)",
+            "Income certificate (annual income below ₹3 lakh)",
+            "Ration card (white/pink — BPL/low-income)",
+            "Bank passbook (Aadhaar-seeded and NPCI-mapped)",
+            "Mobile number linked to Aadhaar"
+        ],
+        "application_steps": [
+            "Step 1: Visit your nearest Grama Sachivalayam (rural) or Ward Secretariat (urban).",
+            "Step 2: Meet the Digital Assistant (DA) and request registration for Aadabidda Nidhi.",
+            "Step 3: Submit Aadhaar, income certificate, ration card, and bank passbook.",
+            "Step 4: DA registers you on the GSWS-NBM portal (gsws-nbm.ap.gov.in).",
+            "Step 5: Application is verified by the ward/village welfare officer.",
+            "Step 6: ₹1,500/month is credited directly to your Aadhaar-linked bank account.",
+            "Step 7: Check status at gsws-nbm.ap.gov.in using your Aadhaar number."
+        ],
+        "offline_office": "Grama Sachivalayam or Ward Secretariat (Women & Child Welfare section)",
+        "processing_time": "30–45 days from application to first credit",
+        "last_verified": "2025-06"
     },
     {
-        "id": "ysr_vahana_mitra",
-        "name": "YSR Vahana Mitra",
-        "category": "financial_assistance",
-        "description": "Financial assistance for self-employed auto-rickshaw, taxi, or maxi cab drivers to cover insurance and maintenance costs",
-        "eligible_occupation": [
-            "driver",
-            "auto_driver",
-            "taxi_driver"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
-        "max_income": 999999,
-        "eligible_for": [
-            "commercial_vehicle_owner_driver"
-        ],
-        "benefits": "₹10,000 per year per eligible driver",
-        "apply_at": "Transport Department / Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Driving License",
-            "Vehicle Registration Certificate (RC)",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "jagananna_chedodu",
-        "name": "Jagananna Chedodu",
-        "category": "financial_assistance",
-        "description": "Direct benefit transfer to traditional occupations like Rajakas (washermen), Nayee Brahmins (barbers), and Tailors",
-        "eligible_occupation": [
-            "tailor",
-            "washerman",
-            "barber"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "BC",
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 60,
-        "max_income": 250000,
-        "eligible_for": [
-            "traditional_artisans"
-        ],
-        "benefits": "₹10,000 per year financial assistance",
-        "apply_at": "Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Shop registration/Establishment certificate",
-            "Caste certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "ysr_kapu_nestham",
-        "name": "YSR Kapu Nestham",
+        "id": "deepam_2_0",
+        "name": "Deepam 2.0 – Free LPG Cylinders",
         "category": "women_welfare",
-        "description": "Empowering women of Kapu, Balija, Telaga and Ontari communities to enhance their livelihood and living standards",
+        "description": "3 free LPG cylinders per year reimbursed to eligible women households. TDP Super Six scheme, covering 90 lakh households.",
         "eligible_occupation": [
             "any"
         ],
@@ -764,39 +594,101 @@
             "female"
         ],
         "eligible_caste": [
-            "Kapu",
-            "Balija",
-            "Telaga",
-            "Ontari"
+            "any"
         ],
         "eligible_religion": [
             "any"
         ],
-        "min_age": 45,
-        "max_age": 60,
-        "max_income": 300000,
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 500000,
         "eligible_for": [
-            "kapu_community_women"
+            "head_of_household",
+            "lpg_connection_holder"
         ],
-        "benefits": "₹15,000 per annum for five years",
-        "apply_at": "Navasakam portal / Village Secretariat",
+        "benefits": "Cost of 3 LPG cylinders/year reimbursed to bank account within 48 hours of booking",
+        "apply_portal": "https://gsws-nbm.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "lpg_distributor"
+        ],
+        "helpline": "1902",
+        "apply_at": "Grama Sachivalayam or nearest LPG distributor",
         "documents": [
-            "Aadhaar",
-            "Caste certificate",
-            "Income proof",
-            "Bank account"
-        ]
+            "Aadhaar card (linked to bank account)",
+            "LPG connection number (consumer number from gas agency passbook)",
+            "Ration card",
+            "Bank passbook (Aadhaar-seeded)"
+        ],
+        "application_steps": [
+            "Step 1: Visit Grama Sachivalayam and register for Deepam 2.0 with your LPG consumer number.",
+            "Step 2: DA seeds your Aadhaar with your LPG connection on the portal.",
+            "Step 3: When you book a cylinder through your gas agency (phone/app/online), the free benefit is triggered.",
+            "Step 4: After delivery, the cylinder cost is reimbursed to your Aadhaar-linked bank account within 48 hours.",
+            "Step 5: Free benefit applies to 3 cylinders per year per household.",
+            "Step 6: Check reimbursement status at gsws-nbm.ap.gov.in using Aadhaar."
+        ],
+        "offline_office": "Grama Sachivalayam or LPG gas distributor / agency",
+        "processing_time": "Reimbursement within 48 hours of cylinder delivery",
+        "last_verified": "2025-06"
     },
     {
-        "id": "ysr_matysakara_bharosa",
-        "name": "YSR Matsyakara Bharosa",
-        "category": "financial_assistance",
-        "description": "Financial assistance to fishermen during the annual fishing ban period",
+        "id": "apsrtc_free_bus_women",
+        "name": "APSRTC Free Bus Travel for Women",
+        "category": "women_welfare",
+        "description": "Free travel for all women in APSRTC ordinary and Palle Velugu buses statewide. TDP Super Six scheme.",
         "eligible_occupation": [
-            "fisherman"
+            "any"
         ],
         "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
             "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "any_woman_or_girl_child"
+        ],
+        "benefits": "Zero-ticket free travel on APSRTC ordinary and Palle Velugu buses anywhere in AP",
+        "apply_portal": "N/A — no registration required",
+        "status_check_portal": "https://www.apsrtc.gov.in/",
+        "apply_mode": [
+            "no_registration_needed"
+        ],
+        "helpline": "0866-2570005",
+        "apply_at": "Board the bus directly — no registration required",
+        "documents": [
+            "Any valid photo ID with Andhra Pradesh address (Aadhaar, voter ID, etc.)",
+            "Note: No ticket or registration needed — just board and show ID if asked"
+        ],
+        "application_steps": [
+            "Step 1: No application needed. This is a universal benefit for all women in AP.",
+            "Step 2: Board any APSRTC ordinary bus or Palle Velugu bus.",
+            "Step 3: Show any AP address proof ID if the conductor asks — Aadhaar or voter ID is sufficient.",
+            "Step 4: Free travel is NOT available on AC/Volvo/Express buses.",
+            "Step 5: For queries or complaints, call APSRTC helpline: 0866-2570005."
+        ],
+        "offline_office": "Nearest APSRTC Bus Station",
+        "processing_time": "Immediate — no waiting period",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_baby_kit",
+        "name": "NTR Baby Kit",
+        "category": "women_welfare",
+        "description": "Free 11-item baby care kit (worth ₹1,410) given to mothers at discharge from any AP government hospital. Launched May 2025 with G.O.MS.No.61.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
         ],
         "eligible_caste": [
             "any"
@@ -805,26 +697,38 @@
             "any"
         ],
         "min_age": 18,
-        "max_age": 60,
-        "max_income": 500000,
+        "max_age": 45,
+        "max_income": 9999999,
         "eligible_for": [
-            "active_fisherman",
-            "boat_owner"
+            "new_mother"
         ],
-        "benefits": "₹10,000 compensation during marine fishing ban period. Also includes enhanced diesel subsidy.",
-        "apply_at": "Department of Fisheries / Village Secretariat",
+        "benefits": "Free baby kit worth ₹1,410 containing 11 essential newborn care items distributed at hospital discharge",
+        "apply_portal": "N/A — distributed automatically at government hospital",
+        "status_check_portal": "N/A",
+        "apply_mode": [
+            "automatic_hospital_distribution"
+        ],
+        "helpline": "104 (Health helpline AP)",
+        "apply_at": "Any AP government hospital — automatically given at discharge after delivery",
         "documents": [
-            "Aadhaar",
-            "Fisheries identity card",
-            "Boat registration (if applicable)",
-            "Bank account"
-        ]
+            "Aadhaar card of mother",
+            "Hospital admission / delivery records"
+        ],
+        "application_steps": [
+            "Step 1: Deliver at any AP government hospital (PHC, CHC, District Hospital, or Teaching Hospital).",
+            "Step 2: Kit is automatically given at the time of discharge — no separate application needed.",
+            "Step 3: Kit includes items like soap, towel, nappy, oil, mosquito net, cotton, etc.",
+            "Step 4: If kit is not given at discharge, complain to hospital superintendent or call 104."
+        ],
+        "offline_office": "Government hospital nursing staff or hospital superintendent",
+        "processing_time": "Immediate at discharge",
+        "last_verified": "2025-05"
     },
     {
-        "id": "ysr_kalyanamasthu",
-        "name": "YSR Kalyanamasthu",
-        "category": "marriage_assistance",
-        "description": "Financial assistance for the marriage of daughters belonging to BPL families (SC/ST/BC/Minorities/Disabled)",
+        "id": "chandranna_pelli_kanuka",
+        "name": "Chandranna Pelli Kanuka",
+        "category": "women_welfare",
+        "description": "Financial assistance for marriages of daughters from BPL SC/ST/BC/Minority families. Renamed from YSR Kalyanamasthu by TDP govt (June 2024).",
         "eligible_occupation": [
             "any"
         ],
@@ -846,20 +750,446 @@
         "eligible_for": [
             "bpl_family_bride"
         ],
-        "benefits": "₹40,000 to ₹1,00,000 based on community and inter-caste combinations",
-        "apply_at": "Navasakam portal / Register within 60 days of marriage",
+        "benefits": "₹40,000 to ₹1,00,000 depending on community category and inter-caste combinations",
+        "apply_portal": "https://gsws-nbm.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "district_welfare_office"
+        ],
+        "helpline": "1902",
+        "apply_at": "Grama Sachivalayam or District SC/ST/BC/Minority Welfare Office — register within 60 days of marriage",
         "documents": [
-            "Aadhaar (Bride and Groom)",
-            "Tenth class certificates (mandatory for both)",
-            "Marriage certificate",
-            "Caste certificate"
-        ]
+            "Aadhaar cards of bride and groom",
+            "10th class certificates of bride and groom (age proof)",
+            "Marriage certificate (registered)",
+            "Caste certificate (bride's — SC/ST/BC/Minority)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Bank passbook (bride's — Aadhaar-linked)",
+            "Ration card"
+        ],
+        "application_steps": [
+            "Step 1: Apply within 60 days of marriage — delays may cause rejection.",
+            "Step 2: Visit Grama Sachivalayam with all documents.",
+            "Step 3: DA registers application on gsws-nbm.ap.gov.in.",
+            "Step 4: District Welfare Officer verifies caste, income, and marriage certificate.",
+            "Step 5: Assistance amount is transferred to bride's Aadhaar-linked bank account.",
+            "Step 6: Track status at gsws-nbm.ap.gov.in using Aadhaar."
+        ],
+        "offline_office": "District SC/ST/BC/Minority Welfare Office or Grama Sachivalayam",
+        "processing_time": "45–90 days after verification",
+        "last_verified": "2025-06"
     },
     {
-        "id": "aadabidda_nidhi",
-        "name": "Aadabidda Nidhi",
-        "category": "women_welfare",
-        "description": "Monthly financial assistance given to women from economically weaker sections under Super Six promises",
+        "id": "aarogyasri",
+        "name": "AP Aarogyasri Health Scheme",
+        "category": "health",
+        "description": "Free cashless treatment up to ₹5 lakh/year for BPL families at empanelled hospitals for 2,500+ major procedures and surgeries.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 500000,
+        "eligible_for": [
+            "any"
+        ],
+        "benefits": "Free treatment up to ₹5 lakh/year covering 2,500+ procedures at empanelled hospitals",
+        "apply_portal": "https://aarogyasri.ap.gov.in/",
+        "status_check_portal": "https://aarogyasri.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "empanelled_hospital",
+            "meeseva"
+        ],
+        "helpline": "104",
+        "apply_at": "Grama Sachivalayam for health card, or directly at any empanelled hospital",
+        "documents": [
+            "Aadhaar card (all family members)",
+            "White ration card (BPL)",
+            "Income certificate (below ₹5 lakh/year)",
+            "Aarogyasri health card (if already issued)"
+        ],
+        "application_steps": [
+            "Step 1: Get your Aarogyasri health card from the Grama Sachivalayam using Aadhaar and white ration card.",
+            "Step 2: When treatment is needed, go to any empanelled government or private hospital.",
+            "Step 3: Show Aadhaar and Aarogyasri health card at the hospital's Aarogyasri help desk.",
+            "Step 4: Hospital pre-authorises the treatment on the Aarogyasri portal.",
+            "Step 5: Treatment is provided cashless — up to ₹5 lakh per year per family.",
+            "Step 6: For list of empanelled hospitals, visit aarogyasri.ap.gov.in.",
+            "Step 7: For complaints or claim status, call 104 (toll-free)."
+        ],
+        "offline_office": "Aarogyasri help desk at any empanelled hospital, or Grama Sachivalayam",
+        "processing_time": "Treatment begins same day at empanelled hospital after pre-authorisation",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "pmjay_ayushman_bharat",
+        "name": "PMJAY – Ayushman Bharat",
+        "category": "health",
+        "description": "Central government health insurance scheme providing ₹5 lakh/year cashless treatment for BPL and low-income families at empanelled hospitals.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "any"
+        ],
+        "benefits": "₹5 lakh/year cashless health coverage per family for hospitalisation at empanelled hospitals",
+        "apply_portal": "https://pmjay.gov.in/",
+        "status_check_portal": "https://beneficiary.nha.gov.in/",
+        "apply_mode": [
+            "pmjay_portal",
+            "empanelled_hospital",
+            "csc_centre"
+        ],
+        "helpline": "14555",
+        "apply_at": "Check eligibility at pmjay.gov.in — apply via CSC or empanelled hospital",
+        "documents": [
+            "Aadhaar card",
+            "Ration card or SECC data inclusion proof",
+            "Mobile number"
+        ],
+        "application_steps": [
+            "Step 1: Check eligibility at pmjay.gov.in → 'Am I Eligible?' using mobile or ration card number.",
+            "Step 2: If eligible, get your Ayushman card from nearest CSC (Common Service Centre) or hospital.",
+            "Step 3: At the time of hospitalisation, show Aadhaar and Ayushman card at the hospital help desk.",
+            "Step 4: Hospital verifies on PMJAY portal and provides cashless treatment.",
+            "Step 5: For card download or complaints, call 14555 or visit beneficiary.nha.gov.in."
+        ],
+        "offline_office": "CSC Centre at Panchayat level or empanelled hospital help desk",
+        "processing_time": "Card issued within 1–2 days; treatment same day at empanelled hospital",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "janani_suraksha_yojana",
+        "name": "Janani Suraksha Yojana (JSY)",
+        "category": "health",
+        "description": "Central NHM scheme providing cash incentive to BPL pregnant women who deliver in government or accredited hospitals.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 19,
+        "max_age": 45,
+        "max_income": 300000,
+        "eligible_for": [
+            "pregnant_woman"
+        ],
+        "benefits": "₹1,400 cash incentive for rural institutional delivery + ₹1,000 for urban. ASHA worker support included.",
+        "apply_portal": "https://nhm.gov.in/",
+        "status_check_portal": "https://nhm.gov.in/",
+        "apply_mode": [
+            "asha_worker",
+            "anm_worker",
+            "government_phc"
+        ],
+        "helpline": "104",
+        "apply_at": "Contact nearest ASHA/ANM worker or Government PHC before delivery",
+        "documents": [
+            "Aadhaar card",
+            "BPL ration card",
+            "Pregnancy registration card (ANC card / Mother & Child protection card)",
+            "Bank passbook (Aadhaar-linked)"
+        ],
+        "application_steps": [
+            "Step 1: As soon as pregnancy is confirmed, register with your local ASHA or ANM (auxiliary nurse midwife) worker.",
+            "Step 2: Get your ANC (Ante-Natal Care) card from the nearest PHC or government hospital.",
+            "Step 3: Attend at least 3 ANC check-ups at a government facility.",
+            "Step 4: Deliver at a government hospital or accredited private hospital.",
+            "Step 5: ASHA worker submits disbursement request after delivery.",
+            "Step 6: ₹1,400 (rural) or ₹1,000 (urban) is credited to your Aadhaar-linked bank account within 7 days."
+        ],
+        "offline_office": "Local ASHA worker, ANM, PHC, or Government Hospital (maternity ward)",
+        "processing_time": "Cash incentive credited within 7–15 days of delivery",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_baby_kit_health",
+        "name": "AP 108 Emergency Ambulance Service",
+        "category": "health",
+        "description": "Free emergency ambulance service (108) available 24x7 across AP for medical emergencies, accidents, and maternity cases.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 0,
+        "max_age": 99,
+        "max_income": 9999999,
+        "eligible_for": [
+            "any"
+        ],
+        "benefits": "Free emergency ambulance transport to nearest government hospital — call 108",
+        "apply_portal": "N/A — emergency service",
+        "status_check_portal": "N/A",
+        "apply_mode": [
+            "dial_108"
+        ],
+        "helpline": "108",
+        "apply_at": "Dial 108 — no prior registration needed",
+        "documents": [
+            "No documents required — call 108 directly in emergency"
+        ],
+        "application_steps": [
+            "Step 1: In any medical emergency, accident, or maternity case — dial 108 immediately.",
+            "Step 2: Provide your location (village/mandal/nearest landmark) to the dispatcher.",
+            "Step 3: Ambulance arrives within 15–20 minutes in urban areas, 30–45 minutes in rural areas.",
+            "Step 4: Service is free — no payment required.",
+            "Step 5: For non-emergency health queries, dial 104."
+        ],
+        "offline_office": "N/A — call 108 directly",
+        "processing_time": "Ambulance dispatched immediately after call",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "esi_scheme",
+        "name": "ESI (Employees State Insurance) Scheme",
+        "category": "health",
+        "description": "Central social insurance scheme providing medical, maternity, disability and dependent benefits to workers in organised sector establishments.",
+        "eligible_occupation": [
+            "employee",
+            "worker",
+            "factory_worker"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 65,
+        "max_income": 252000,
+        "eligible_for": [
+            "organised_sector_worker"
+        ],
+        "benefits": "Free medical care for employee and family, maternity benefit, sickness benefit (70% wages), disability pension",
+        "apply_portal": "https://esic.gov.in/",
+        "status_check_portal": "https://esic.gov.in/",
+        "apply_mode": [
+            "employer_registers_on_esic_portal"
+        ],
+        "helpline": "1800-11-2526",
+        "apply_at": "Your employer registers you on esic.gov.in — employee cannot apply directly",
+        "documents": [
+            "Aadhaar card",
+            "Employer's ESIC registration number",
+            "Salary slip or appointment letter",
+            "Passport-size photograph",
+            "Family details for dependant coverage"
+        ],
+        "application_steps": [
+            "Step 1: Your employer (if establishment has 10+ employees) must register on esic.gov.in.",
+            "Step 2: Employer registers each employee on the ESIC portal — employee gets ESIC Pehchaan card.",
+            "Step 3: Use ESIC Pehchaan card at any ESIC dispensary or hospital for free treatment.",
+            "Step 4: For maternity benefit, apply at your nearest ESIC branch office with medical certificates.",
+            "Step 5: For sickness benefit, get a sickness certificate from ESIC-approved doctor.",
+            "Step 6: For queries or missing card, call 1800-11-2526 or visit esic.gov.in."
+        ],
+        "offline_office": "ESIC Branch Office (Vijayawada, Visakhapatnam, Guntur, Tirupati) or ESIC Regional Office AP",
+        "processing_time": "ESIC card issued within 2–4 weeks of employer registration",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_bharosa_old_age",
+        "name": "NTR Bharosa Pension – Old Age",
+        "category": "pension",
+        "description": "Monthly pension of ₹4,000 for senior citizens aged 60+. Increased from ₹3,000 in July 2024 by TDP govt.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 60,
+        "max_age": 99,
+        "max_income": 144000,
+        "eligible_for": [
+            "senior_citizen"
+        ],
+        "benefits": "₹4,000 per month directly to bank account",
+        "apply_portal": "https://sspensions.ap.gov.in/",
+        "status_check_portal": "https://sspensions.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "ward_secretariat",
+            "sspensions_portal"
+        ],
+        "helpline": "08662410017",
+        "apply_at": "Grama Sachivalayam or Ward Secretariat or sspensions.ap.gov.in",
+        "documents": [
+            "Aadhaar card",
+            "Age proof (birth certificate / school TC / Aadhaar itself)",
+            "White ration card (BPL)",
+            "Bank passbook (Aadhaar-linked)",
+            "Income certificate (annual income below ₹1.44 lakh)"
+        ],
+        "application_steps": [
+            "Step 1: Visit your nearest Grama Sachivalayam (village) or Ward Secretariat (town/city).",
+            "Step 2: Request the pension application form for 'Old Age Pension' (NTR Bharosa).",
+            "Step 3: Submit Aadhaar, age proof, ration card, and bank passbook.",
+            "Step 4: DA registers your application on sspensions.ap.gov.in portal.",
+            "Step 5: MPDO (rural) or Municipal Commissioner (urban) verifies and sanctions pension.",
+            "Step 6: ₹4,000/month is credited directly to your Aadhaar-linked bank account on the 1st of every month.",
+            "Step 7: Check pension status at sspensions.ap.gov.in → Search → enter Aadhaar or Pension ID."
+        ],
+        "offline_office": "Grama Sachivalayam, Ward Secretariat, or MPDO Office",
+        "processing_time": "30–60 days from application to first disbursement",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_bharosa_widow",
+        "name": "NTR Bharosa Pension – Widow",
+        "category": "pension",
+        "description": "Monthly pension of ₹4,000 for widows aged 18 and above from low-income families.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "female"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 144000,
+        "eligible_for": [
+            "widow"
+        ],
+        "benefits": "₹4,000 per month directly to bank account",
+        "apply_portal": "https://sspensions.ap.gov.in/",
+        "status_check_portal": "https://sspensions.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "ward_secretariat"
+        ],
+        "helpline": "08662410017",
+        "apply_at": "Grama Sachivalayam or Ward Secretariat",
+        "documents": [
+            "Aadhaar card",
+            "Husband's death certificate",
+            "White ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Income certificate (annual income below ₹1.44 lakh)"
+        ],
+        "application_steps": [
+            "Step 1: Visit Grama Sachivalayam / Ward Secretariat and request Widow Pension application.",
+            "Step 2: Submit Aadhaar, husband's death certificate, ration card, and bank passbook.",
+            "Step 3: DA registers on sspensions.ap.gov.in and forwards to MPDO.",
+            "Step 4: MPDO/Municipal Commissioner verifies and sanctions pension.",
+            "Step 5: ₹4,000/month credited directly to bank account.",
+            "Step 6: Check status at sspensions.ap.gov.in using Aadhaar or Pension ID."
+        ],
+        "offline_office": "Grama Sachivalayam, Ward Secretariat, or MPDO Office",
+        "processing_time": "30–60 days from application",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_bharosa_disabled",
+        "name": "NTR Bharosa Pension – Disabled",
+        "category": "pension",
+        "description": "Monthly pension for persons with disabilities. ₹6,000/month for 40%+ disability; ₹15,000/month for 100% disability.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 144000,
+        "eligible_for": [
+            "disabled"
+        ],
+        "benefits": "₹6,000/month (40%+ disability) or ₹15,000/month (100% total disability)",
+        "apply_portal": "https://sspensions.ap.gov.in/",
+        "status_check_portal": "https://sspensions.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "ward_secretariat",
+            "sadarem_office"
+        ],
+        "helpline": "08662410017",
+        "apply_at": "Grama Sachivalayam or Ward Secretariat — SADAREM disability certificate required",
+        "documents": [
+            "Aadhaar card",
+            "SADAREM disability certificate (40%+ disability — from District Hospital)",
+            "White ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Income certificate (below ₹1.44 lakh/year)"
+        ],
+        "application_steps": [
+            "Step 1: If you don't have a SADAREM certificate, visit the District Hospital for a disability assessment.",
+            "Step 2: With SADAREM certificate in hand, visit Grama Sachivalayam or Ward Secretariat.",
+            "Step 3: DA registers application on sspensions.ap.gov.in with disability type and percentage.",
+            "Step 4: MPDO/Municipal Commissioner verifies and sanctions pension.",
+            "Step 5: Pension amount is determined by disability percentage — ₹6,000 (40–99%) or ₹15,000 (100%).",
+            "Step 6: Check pension status at sspensions.ap.gov.in using Aadhaar or Pension ID."
+        ],
+        "offline_office": "District Hospital (SADAREM) + Grama Sachivalayam or MPDO Office",
+        "processing_time": "45–90 days (includes SADAREM certificate process)",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_bharosa_single_woman",
+        "name": "NTR Bharosa Pension – Single Woman",
+        "category": "pension",
+        "description": "Monthly pension of ₹4,000 for unmarried/separated/deserted women above 18 with no income support.",
         "eligible_occupation": [
             "any"
         ],
@@ -874,30 +1204,586 @@
         ],
         "min_age": 18,
         "max_age": 59,
-        "max_income": 300000,
+        "max_income": 144000,
         "eligible_for": [
-            "woman",
-            "economically_weaker"
+            "single_woman"
         ],
-        "benefits": "₹1,500 per month (₹18,000 per year)",
-        "apply_at": "Village/Ward Secretariat",
+        "benefits": "₹4,000 per month directly to bank account",
+        "apply_portal": "https://sspensions.ap.gov.in/",
+        "status_check_portal": "https://sspensions.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "ward_secretariat"
+        ],
+        "helpline": "08662410017",
+        "apply_at": "Grama Sachivalayam or Ward Secretariat",
         "documents": [
-            "Aadhaar",
-            "Income certificate",
-            "Bank account",
-            "Ration card"
-        ]
+            "Aadhaar card",
+            "Declaration/affidavit of single/unmarried/separated status (notarised or village officer certified)",
+            "White ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Income certificate (below ₹1.44 lakh/year)"
+        ],
+        "application_steps": [
+            "Step 1: Visit Grama Sachivalayam / Ward Secretariat.",
+            "Step 2: Submit Aadhaar, declaration of single status, ration card, and bank passbook.",
+            "Step 3: DA registers application on sspensions.ap.gov.in.",
+            "Step 4: MPDO verifies and sanctions pension.",
+            "Step 5: ₹4,000/month credited to Aadhaar-linked bank account.",
+            "Step 6: Check status at sspensions.ap.gov.in using Aadhaar or Pension ID."
+        ],
+        "offline_office": "Grama Sachivalayam or Ward Secretariat",
+        "processing_time": "30–60 days",
+        "last_verified": "2025-06"
     },
     {
-        "id": "talliki_vandanam",
-        "name": "Talliki Vandanam",
-        "category": "education",
-        "description": "Financial assistance to encourage mothers to send their children to school (Super Six scheme replacing Amma Vodi)",
+        "id": "ntr_bharosa_weaver_fisherman",
+        "name": "NTR Bharosa Pension – Weavers & Fishermen",
+        "category": "pension",
+        "description": "Monthly pension of ₹4,000 for handloom weavers (age 50+) and fishermen from low-income families.",
+        "eligible_occupation": [
+            "weaver",
+            "fisherman"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 50,
+        "max_age": 99,
+        "max_income": 144000,
+        "eligible_for": [
+            "weaver",
+            "fisherman"
+        ],
+        "benefits": "₹4,000 per month directly to bank account",
+        "apply_portal": "https://sspensions.ap.gov.in/",
+        "status_check_portal": "https://sspensions.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "handloom_department",
+            "fisheries_department"
+        ],
+        "helpline": "08662410017",
+        "apply_at": "Grama Sachivalayam with occupation proof from Handloom or Fisheries Department",
+        "documents": [
+            "Aadhaar card",
+            "Occupation proof — Weaver's identity card (from Handloom Department) OR Fisheries ID card (from Fisheries Department)",
+            "White ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Income certificate (below ₹1.44 lakh/year)"
+        ],
+        "application_steps": [
+            "Step 1: Obtain occupation proof — weavers need a certificate from the Handloom Department; fishermen from the Fisheries Department.",
+            "Step 2: Visit Grama Sachivalayam with Aadhaar, occupation proof, ration card, and bank passbook.",
+            "Step 3: DA registers application on sspensions.ap.gov.in with occupation category.",
+            "Step 4: MPDO verifies occupation certificate and sanctions pension.",
+            "Step 5: ₹4,000/month credited to bank account.",
+            "Step 6: Check status at sspensions.ap.gov.in using Aadhaar."
+        ],
+        "offline_office": "Grama Sachivalayam + District Handloom/Fisheries Office for occupation certificate",
+        "processing_time": "30–60 days after occupation certificate is obtained",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_housing",
+        "name": "NTR Housing Scheme",
+        "category": "housing",
+        "description": "Free house construction support for houseless poor families in rural AP. Renamed from YSR Housing (Pedalandru Illu) by TDP govt.",
         "eligible_occupation": [
             "any"
         ],
         "eligible_gender": [
-            "female"
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "houseless"
+        ],
+        "benefits": "Free house construction support of ₹1.8–2.5 lakh depending on location and type",
+        "apply_portal": "https://housing.ap.gov.in/",
+        "status_check_portal": "https://housing.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "aphmhidc_office"
+        ],
+        "helpline": "1902",
+        "apply_at": "Grama Sachivalayam or AP Housing Corporation (APHMHIDC) District Office",
+        "documents": [
+            "Aadhaar card",
+            "Income certificate (below ₹3 lakh/year)",
+            "No house affidavit (notarised declaration that family has no pucca house)",
+            "Land ownership / government-allotted plot proof",
+            "Ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Caste certificate (if SC/ST/BC — for additional priority)"
+        ],
+        "application_steps": [
+            "Step 1: Visit Grama Sachivalayam and inform DA you want to apply for NTR Housing.",
+            "Step 2: Confirm your name is in the beneficiary survey list (from SECC/AP housing survey).",
+            "Step 3: If not in list, submit application with all documents — DA adds you to the waiting list.",
+            "Step 4: Land/plot allotment is done by the Revenue Department if you don't have land.",
+            "Step 5: Construction funds (₹1.8–2.5 lakh) released in 3–4 installments based on construction progress.",
+            "Step 6: Track status at housing.ap.gov.in using Aadhaar or application number.",
+            "Step 7: Construction must be completed within 24 months of first installment."
+        ],
+        "offline_office": "Grama Sachivalayam, MPDO Office, or APHMHIDC District Office",
+        "processing_time": "Fund release in installments over 12–24 months",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "pmay_gramin",
+        "name": "PMAY Gramin (Rural Housing)",
+        "category": "housing",
+        "description": "Central scheme providing financial assistance of ₹1.2–1.3 lakh to rural BPL families to build a pucca house.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "houseless",
+            "rural_resident"
+        ],
+        "benefits": "₹1.20–1.30 lakh construction assistance for pucca house in rural area",
+        "apply_portal": "https://pmayg.nic.in/",
+        "status_check_portal": "https://pmayg.nic.in/netiayHome/home.aspx",
+        "apply_mode": [
+            "gram_panchayat",
+            "grama_sachivalayam",
+            "pmayg_portal"
+        ],
+        "helpline": "1800-11-6446",
+        "apply_at": "Gram Panchayat or Grama Sachivalayam or pmayg.nic.in",
+        "documents": [
+            "Aadhaar card",
+            "SECC-2011 survey inclusion proof (check at pmayg.nic.in)",
+            "Land ownership / patta proof",
+            "Bank passbook (Aadhaar-linked)",
+            "BPL ration card"
+        ],
+        "application_steps": [
+            "Step 1: Check if your name is in the SECC-2011 Awaas+ list at pmayg.nic.in → Stakeholders → IAY/PMAYG Beneficiary.",
+            "Step 2: If in the list, your Gram Panchayat will call you for registration.",
+            "Step 3: If not in list, apply through the Gram Panchayat/Grama Sachivalayam for inclusion.",
+            "Step 4: Submit Aadhaar, land proof, and bank details to Gram Panchayat.",
+            "Step 5: Funds released in installments to your Aadhaar-linked bank account as construction progresses.",
+            "Step 6: Construction completion photo must be uploaded at each stage on AwaasSoft portal.",
+            "Step 7: Check payment status at pmayg.nic.in using your Aadhaar or registration number."
+        ],
+        "offline_office": "Gram Panchayat, Grama Sachivalayam, or DRDA District Office",
+        "processing_time": "Funds released over 12–18 months in installments",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "pmay_urban",
+        "name": "PMAY Urban (Housing for All)",
+        "category": "housing",
+        "description": "Central scheme providing home loan interest subsidy for urban EWS/LIG/MIG families without a pucca house.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 1800000,
+        "eligible_for": [
+            "houseless",
+            "urban_resident"
+        ],
+        "benefits": "Interest subsidy up to ₹2.67 lakh on home loan (EWS/LIG). In-situ slum redevelopment also covered.",
+        "apply_portal": "https://pmaymis.gov.in/",
+        "status_check_portal": "https://pmaymis.gov.in/",
+        "apply_mode": [
+            "pmaymis_portal",
+            "bank_branch",
+            "urban_local_body"
+        ],
+        "helpline": "1800-11-3377 / 1800-11-3388",
+        "apply_at": "pmaymis.gov.in or your bank branch or ULB (Urban Local Body / Municipal Office)",
+        "documents": [
+            "Aadhaar card",
+            "Income proof (salary slip / income certificate)",
+            "No house affidavit",
+            "Bank account passbook",
+            "Property / land documents (if applicable)"
+        ],
+        "application_steps": [
+            "Step 1: Visit pmaymis.gov.in → Citizen Assessment → Apply Online.",
+            "Step 2: Enter Aadhaar number and fill the application form.",
+            "Step 3: Select your applicable category — EWS (income < ₹3L), LIG (₹3–6L), MIG-I (₹6–12L), MIG-II (₹12–18L).",
+            "Step 4: Apply for home loan at a participating bank/NBFC — mention PMAY-CLSS.",
+            "Step 5: Bank verifies eligibility and submits subsidy claim to NHB/HUDCO.",
+            "Step 6: Interest subsidy (up to ₹2.67 lakh for EWS) is credited upfront to loan account.",
+            "Step 7: Track application status at pmaymis.gov.in using Aadhaar or application ID."
+        ],
+        "offline_office": "Urban Local Body (Municipality / Corporation) or Home Loan Bank Branch",
+        "processing_time": "Subsidy credited within 3–6 months of loan disbursement",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "sc_housing_subsidy",
+        "name": "AP SC/ST Housing Subsidy",
+        "category": "housing",
+        "description": "Additional housing subsidy for SC and ST families for house construction or repair under SCSP/TSP funds of AP government.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC",
+            "ST"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "sc_community",
+            "st_community",
+            "houseless"
+        ],
+        "benefits": "Additional subsidy of ₹50,000–₹1 lakh for house construction or repair under SCSP/TSP allocations",
+        "apply_portal": "https://gsws-nbm.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "district_sc_st_welfare_office"
+        ],
+        "helpline": "1902",
+        "apply_at": "District SC/ST Welfare Office or Grama Sachivalayam",
+        "documents": [
+            "Aadhaar card",
+            "SC/ST Caste certificate (from MRO/Tahsildar)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Land / house site ownership proof",
+            "No pucca house affidavit",
+            "Bank passbook (Aadhaar-linked)",
+            "Ration card"
+        ],
+        "application_steps": [
+            "Step 1: Visit Grama Sachivalayam or District SC/ST Welfare Office.",
+            "Step 2: Submit caste certificate, income certificate, land proof, and no-house affidavit.",
+            "Step 3: DA or welfare officer registers application on the portal.",
+            "Step 4: District SC/ST Welfare Officer verifies and sanctions the subsidy.",
+            "Step 5: Subsidy is transferred to your Aadhaar-linked bank account in 1–2 installments.",
+            "Step 6: Track at gsws-nbm.ap.gov.in using Aadhaar."
+        ],
+        "offline_office": "District SC/ST Welfare Office (contact District Collector office for address)",
+        "processing_time": "45–90 days",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ap_weaker_sections_housing",
+        "name": "AP EWS Housing Scheme",
+        "category": "housing",
+        "description": "Housing assistance for Economically Weaker Section families in urban areas through AP state housing board.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "houseless",
+            "urban_resident",
+            "economically_weaker"
+        ],
+        "benefits": "Subsidised/free housing unit allocation to EWS urban beneficiaries via lottery or waiting list",
+        "apply_portal": "https://aphb.gov.in/",
+        "status_check_portal": "https://aphb.gov.in/",
+        "apply_mode": [
+            "aphb_district_office",
+            "district_collector_office"
+        ],
+        "helpline": "0866-2498500",
+        "apply_at": "AP Housing Board (APHB) District Office or District Collector's Office",
+        "documents": [
+            "Aadhaar card",
+            "Income certificate (below ₹3 lakh/year)",
+            "No house affidavit",
+            "Ration card",
+            "Bank passbook (Aadhaar-linked)",
+            "Address proof"
+        ],
+        "application_steps": [
+            "Step 1: Visit APHB district office or District Collector's office to check current allotment drive.",
+            "Step 2: Fill the application form and submit with income certificate and no-house affidavit.",
+            "Step 3: Application is reviewed and placed in the waiting list / lottery pool.",
+            "Step 4: Allotment is communicated by post or through APHB portal.",
+            "Step 5: Subsidised housing unit is handed over after documentation.",
+            "Step 6: Check allotment status at aphb.gov.in."
+        ],
+        "offline_office": "AP Housing Board (APHB) District Office or District Collector's office",
+        "processing_time": "Allotment based on waiting list / lottery — variable",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "sc_corporation_loan",
+        "name": "AP SC Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Low-interest loans for SC community members for business setup or education expenses.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "SC"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "sc_community"
+        ],
+        "benefits": "Loans at 3–4% interest up to ₹1 lakh for business or education",
+        "apply_portal": "https://apcfss.in/",
+        "status_check_portal": "https://apcfss.in/",
+        "apply_mode": [
+            "ap_sc_corporation_district_office",
+            "grama_sachivalayam"
+        ],
+        "helpline": "0863-2347314",
+        "apply_at": "AP Scheduled Castes Co-operative Finance Corporation (APCFSS) District Office",
+        "documents": [
+            "Aadhaar card",
+            "SC Caste certificate (from MRO/Tahsildar)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Bank passbook (Aadhaar-linked)",
+            "Business plan / education admission proof",
+            "Ration card",
+            "Passport-size photographs (2)"
+        ],
+        "application_steps": [
+            "Step 1: Visit the nearest APCFSS District Office with all documents.",
+            "Step 2: Fill the loan application form — specify purpose (business/education).",
+            "Step 3: Submit caste certificate, income certificate, and business/education proof.",
+            "Step 4: District Officer verifies documents and forwards to sanctioning authority.",
+            "Step 5: Loan is credited to your bank account after sanction.",
+            "Step 6: For status, call helpline 0863-2347314 or visit apcfss.in."
+        ],
+        "offline_office": "APCFSS District Office — find your district office at apcfss.in",
+        "processing_time": "30–60 days after document verification",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "st_corporation_loan",
+        "name": "AP ST Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Low-interest loans for ST community members for business or agriculture.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "ST"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "st_community"
+        ],
+        "benefits": "Loans at 3% interest up to ₹1 lakh for business or agriculture",
+        "apply_portal": "https://aptribes.gov.in/",
+        "status_check_portal": "https://aptribes.gov.in/",
+        "apply_mode": [
+            "ap_st_corporation_district_office",
+            "itda_office"
+        ],
+        "helpline": "0863-2346651",
+        "apply_at": "AP ST Finance Corporation District Office or ITDA (Integrated Tribal Development Agency) Office",
+        "documents": [
+            "Aadhaar card",
+            "ST Caste certificate (from MRO/Tahsildar)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Bank passbook (Aadhaar-linked)",
+            "Business plan or agriculture land proof",
+            "Ration card",
+            "Passport-size photographs (2)"
+        ],
+        "application_steps": [
+            "Step 1: Visit the AP ST Finance Corporation district office or ITDA office.",
+            "Step 2: Collect and fill the loan application form.",
+            "Step 3: Attach ST caste certificate, income certificate, and purpose proof.",
+            "Step 4: Application is processed by the district officer.",
+            "Step 5: Loan amount is disbursed to your bank account after sanction.",
+            "Step 6: Visit aptribes.gov.in or call 0863-2346651 for status."
+        ],
+        "offline_office": "AP ST Finance Corporation District Office or nearest ITDA Office",
+        "processing_time": "30–60 days",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "bc_corporation_loan",
+        "name": "AP BC Corporation Loan",
+        "category": "financial_assistance",
+        "description": "Subsidised self-employment loans for BC community members.",
+        "eligible_occupation": [
+            "any"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "BC"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 55,
+        "max_income": 300000,
+        "eligible_for": [
+            "bc_community"
+        ],
+        "benefits": "Loans at 4% interest up to ₹1 lakh for self-employment",
+        "apply_portal": "https://apbcbonalu.ap.gov.in/",
+        "status_check_portal": "https://apbcbonalu.ap.gov.in/",
+        "apply_mode": [
+            "ap_bc_corporation_office",
+            "grama_sachivalayam"
+        ],
+        "helpline": "0866-2550055",
+        "apply_at": "AP BC Welfare Corporation District Office",
+        "documents": [
+            "Aadhaar card",
+            "BC Caste certificate (from MRO/Tahsildar)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Bank passbook (Aadhaar-linked)",
+            "Business plan / self-employment proof",
+            "Ration card",
+            "Passport-size photographs (2)"
+        ],
+        "application_steps": [
+            "Step 1: Visit the AP BC Welfare Corporation district office.",
+            "Step 2: Fill the self-employment loan application form.",
+            "Step 3: Submit BC caste certificate, income certificate, and business plan.",
+            "Step 4: District Officer verifies documents and forwards for sanction.",
+            "Step 5: Loan amount credited to your bank account.",
+            "Step 6: Check status at apbcbonalu.ap.gov.in or call 0866-2550055."
+        ],
+        "offline_office": "AP BC Welfare Corporation District Office",
+        "processing_time": "30–60 days",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ntr_nethanna_nestham",
+        "name": "NTR Nethanna Nestham",
+        "category": "financial_assistance",
+        "description": "₹24,000/year direct financial assistance to handloom weavers owning a loom. Renamed from YSR Nethanna Nestham.",
+        "eligible_occupation": [
+            "weaver"
+        ],
+        "eligible_gender": [
+            "any"
+        ],
+        "eligible_caste": [
+            "any"
+        ],
+        "eligible_religion": [
+            "any"
+        ],
+        "min_age": 18,
+        "max_age": 99,
+        "max_income": 300000,
+        "eligible_for": [
+            "weaver_owning_handloom"
+        ],
+        "benefits": "₹24,000 per year (₹2,000/month) directly to bank account",
+        "apply_portal": "https://gsws-nbm.ap.gov.in/",
+        "status_check_portal": "https://gsws-nbm.ap.gov.in/",
+        "apply_mode": [
+            "grama_sachivalayam",
+            "handloom_department"
+        ],
+        "helpline": "1902",
+        "apply_at": "Grama Sachivalayam or District Handloom & Textile Department Office",
+        "documents": [
+            "Aadhaar card",
+            "Handloom ownership certificate / Weaver identity card (from Handloom Department)",
+            "Income certificate (below ₹3 lakh/year)",
+            "Bank passbook (Aadhaar-linked)",
+            "Ration card"
+        ],
+        "application_steps": [
+            "Step 1: First obtain a Weaver Identity Card from the District Handloom Department if you don't have one.",
+            "Step 2: Visit Grama Sachivalayam with Weaver ID card, Aadhaar, bank passbook.",
+            "Step 3: DA registers you on the NTR Nethanna Nestham portal via gsws-nbm.ap.gov.in.",
+            "Step 4: Handloom Department verifies loom ownership and weaver status.",
+            "Step 5: ₹24,000/year is released in installments directly to your bank account.",
+            "Step 6: Check status at gsws-nbm.ap.gov.in using Aadhaar."
+        ],
+        "offline_office": "Grama Sachivalayam or District Handloom & Textiles Department",
+        "processing_time": "30–45 days after Weaver ID verification",
+        "last_verified": "2025-06"
+    },
+    {
+        "id": "ap_vahana_mitra",
+        "name": "AP Vahana Mitra",
+        "category": "financial_assistance",
+        "description": "₹10,000/year financial assistance to self-employed auto-rickshaw, taxi, and maxi-cab owner-drivers for insurance and maintenance.",
+        "eligible_occupation": [
+            "driver",
+            "auto_driver",
+            "taxi_driver"
+        ],
+        "eligible_gender": [
+            "any"
         ],
         "eligible_caste": [
             "any"
@@ -907,144 +1793,38 @@
         ],
         "min_age": 18,
         "max_age": 60,
-        "max_income": 500000,
-        "eligible_for": [
-            "mother_of_schoolgoing_child"
-        ],
-        "benefits": "₹15,000 per year for every school-going child",
-        "apply_at": "School / Navasakam portal",
-        "documents": [
-            "Aadhaar",
-            "Child school enrollment proof",
-            "Income certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "deepam_2_0_free_gas",
-        "name": "Deepam 2.0 (Free Gas Cylinders)",
-        "category": "women_welfare",
-        "description": "Provision of three free LPG cylinders annually to eligible households",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "female"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
-        "max_income": 500000,
-        "eligible_for": [
-            "head_of_household",
-            "lpg_connection_holder"
-        ],
-        "benefits": "Cost of 3 LPG cylinders reimbursed into the bank account per year",
-        "apply_at": "LPG Distributor / Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "LPG connection book",
-            "Ration card",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "annadatha_sukhibhava_2024",
-        "name": "Annadatha Sukhibhava (2024)",
-        "category": "agriculture",
-        "description": "Enhanced investment support to farmers for agricultural expenses (Super Six scheme)",
-        "eligible_occupation": [
-            "farmer"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 18,
-        "max_age": 99,
-        "max_income": 999999,
-        "eligible_for": [
-            "farmer",
-            "tenant_farmer"
-        ],
-        "benefits": "₹20,000 per annum investment support",
-        "apply_at": "Agriculture Department / Village Secretariat",
-        "documents": [
-            "Aadhaar",
-            "Land records (Pattadar Passbook)",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "nirudyoga_bruthi_2024",
-        "name": "Nirudyoga Bruthi (Unemployment Allowance)",
-        "category": "youth_welfare",
-        "description": "Monthly unemployment allowance for educated jobless youth preparing for competitive exams",
-        "eligible_occupation": [
-            "unemployed"
-        ],
-        "eligible_gender": [
-            "any"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 21,
-        "max_age": 35,
-        "max_income": 300000,
-        "eligible_for": [
-            "unemployed_graduate",
-            "diploma_holder"
-        ],
-        "benefits": "₹3,000 per month financial support",
-        "apply_at": "Skill Development Department / Employment Exchange",
-        "documents": [
-            "Aadhaar",
-            "Education certificates",
-            "Income certificate",
-            "Bank account"
-        ]
-    },
-    {
-        "id": "apsrtc_free_bus_women",
-        "name": "APSRTC Free Bus Scheme for Women",
-        "category": "transport",
-        "description": "Free travel facility in APSRTC ordinary and Palle Velugu buses for all women residing in Andhra Pradesh",
-        "eligible_occupation": [
-            "any"
-        ],
-        "eligible_gender": [
-            "female"
-        ],
-        "eligible_caste": [
-            "any"
-        ],
-        "eligible_religion": [
-            "any"
-        ],
-        "min_age": 0,
-        "max_age": 99,
         "max_income": 9999999,
         "eligible_for": [
-            "any_woman_or_girl_child"
+            "commercial_vehicle_owner_driver"
         ],
-        "benefits": "Free Zero-Ticket travel in designated APSRTC buses",
-        "apply_at": "Directly in APSRTC buses",
+        "benefits": "₹10,000 per year directly to bank account",
+        "apply_portal": "https://transport.ap.gov.in/",
+        "status_check_portal": "https://transport.ap.gov.in/",
+        "apply_mode": [
+            "transport_department_portal",
+            "grama_sachivalayam"
+        ],
+        "helpline": "1800-425-9533",
+        "apply_at": "AP Transport Department portal transport.ap.gov.in or nearest RTA (Regional Transport Authority) office",
         "documents": [
-            "Aadhaar or any designated identity card establishing AP residence"
-        ]
+            "Aadhaar card",
+            "Driving licence (commercial — auto/taxi/maxi-cab)",
+            "Vehicle Registration Certificate (RC) — vehicle must be in applicant's own name",
+            "Bank passbook (Aadhaar-linked)",
+            "Vehicle fitness certificate",
+            "Mobile number linked to Aadhaar"
+        ],
+        "application_steps": [
+            "Step 1: Visit transport.ap.gov.in and navigate to Vahana Mitra Scheme.",
+            "Step 2: Register with Aadhaar and driving licence number.",
+            "Step 3: Upload RC copy, driving licence, and bank details.",
+            "Step 4: Application is verified by the RTA of your district.",
+            "Step 5: ₹10,000 is credited annually to your Aadhaar-linked bank account.",
+            "Step 6: Alternatively, visit your nearest RTO / RTA office for offline registration.",
+            "Step 7: Track status at transport.ap.gov.in or call 1800-425-9533."
+        ],
+        "offline_office": "Regional Transport Authority (RTA) Office in your district",
+        "processing_time": "30–45 days after RTA verification",
+        "last_verified": "2025-06"
     }
 ]

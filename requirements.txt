@@ -6,3 +6,4 @@ sentence-transformers
 python-telegram-bot
 groq
 python-dotenv
+rank-bm25==0.2.2

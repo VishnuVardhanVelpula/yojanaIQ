@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Am I eligible for NTR Bharosa pension?",
+    "ground_truth": "Yes, as a 68-year-old individual meeting the age criteria, with a low income of ₹60,000 and rural residence, you are eligible for the NTR Bharosa pension, which provides ₹4,000 per month.",
+    "user_profile": {"age": 68, "gender": "male", "caste": "SC", "religion": "Hindu", "occupation": "none", "income": 60000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "Can I get the Talliki Vandanam benefit?",
+    "ground_truth": "Yes, as a mother with an income below ₹2.5 lakh, you are eligible for Talliki Vandanam. It provides ₹15,000 per year for sending your child to a government school with at least 75% attendance.",
+    "user_profile": {"age": 35, "gender": "female", "caste": "OC", "religion": "Hindu", "occupation": "mother", "income": 120000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "Am I eligible for the PM Kisan Samman Nidhi?",
+    "ground_truth": "Yes, as a landholding farmer you qualify for the PM Kisan Samman Nidhi which provides an income support of ₹6,000 per year in three equal installments.",
+    "user_profile": {"age": 45, "gender": "male", "caste": "BC", "religion": "Hindu", "occupation": "farmer", "income": 150000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "Do I qualify for Aadabidda Nidhi as a single woman?",
+    "ground_truth": "Yes, as an economically weaker woman with an income below ₹3 lakh per year, you qualify for Aadabidda Nidhi which provides ₹1,500 per month.",
+    "user_profile": {"age": 40, "gender": "female", "caste": "BC", "religion": "Hindu", "occupation": "none", "income": 80000, "residence_type": "urban", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "Am I eligible for free power supply?",
+    "ground_truth": "Yes, as a household belonging to the SC community, you are eligible for free electricity up to 200 units per month under the Babu Jagajeevan Ram Jeevana Jyothi Scheme.",
+    "user_profile": {"age": 30, "gender": "male", "caste": "SC", "religion": "Hindu", "occupation": "laborer", "income": 100000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "How do I apply for Annadata Sukhibhava?",
+    "ground_truth": "To apply for Annadata Sukhibhava, visit your nearest Grama Sachivalayam and request the Digital Assistant (DA) to register you. The DA will enter your Aadhaar, land records, and bank details into the system.",
+    "user_profile": {"age": 55, "gender": "male", "caste": "OC", "religion": "Hindu", "occupation": "farmer", "income": 120000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "How do I apply for the minority scholarship?",
+    "ground_truth": "You can apply via the National Scholarship Portal (scholarships.gov.in). Click 'New Registration' and fill out the form under 'Ministry of Minority Affairs'. Upload your religion certificate, income certificate, and admission proof.",
+    "user_profile": {"age": 19, "gender": "male", "caste": "minority", "religion": "Muslim", "occupation": "student", "income": 150000, "residence_type": "urban", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "How do I apply for Chandranna Pelli Kanuka?",
+    "ground_truth": "You must apply within 60 days of your marriage. Visit the Grama Sachivalayam with your documents, and the Digital Assistant will register your application on the gsws-nbm.ap.gov.in portal.",
+    "user_profile": {"age": 22, "gender": "female", "caste": "SC", "religion": "Hindu", "occupation": "none", "income": 150000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "How do I apply for PMFBY free crop insurance?",
+    "ground_truth": "Apply before the deadline (July 31 for Kharif, Dec 31 for Rabi) at your nearest bank branch where your loan is held, or at the Grama Sachivalayam by submitting your Aadhaar, land records, and sowing declaration.",
+    "user_profile": {"age": 45, "gender": "male", "caste": "BC", "religion": "Hindu", "occupation": "farmer", "income": 150000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "How do I claim Deepam 2.0 free cylinders?",
+    "ground_truth": "First, register for Deepam 2.0 at your Grama Sachivalayam to seed your Aadhaar with your LPG connection. Then simply book a cylinder through your gas agency. The cylinder cost will be reimbursed to your bank account within 48 hours of delivery.",
+    "user_profile": {"age": 35, "gender": "female", "caste": "OC", "religion": "Hindu", "occupation": "homemaker", "income": 200000, "residence_type": "urban", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "What documents do I need for post matric scholarship RTF?",
+    "ground_truth": "You need your Aadhaar card, Caste certificate, Income certificate (below ₹2.5 lakh), Transfer Certificate (TC), College admission proof / fee receipt, an Aadhaar-linked Bank passbook, and your Marks memo of the qualifying exam.",
+    "user_profile": {"age": 18, "gender": "male", "caste": "BC", "religion": "Hindu", "occupation": "student", "income": 100000, "residence_type": "rural", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "What documents are required for Aadabidda Nidhi?",
+    "ground_truth": "You need your Aadhaar card (linked to bank account), Income certificate (annual income below ₹3 lakh), white/pink Ration card, an Aadhaar-seeded NPCI-mapped Bank passbook, and a mobile number linked to Aadhaar.",
+    "user_profile": {"age": 38, "gender": "female", "caste": "SC", "religion": "Hindu", "occupation": "none", "income": 90000, "residence_type": "rural", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "What documents do I need to show for APSRTC free bus travel?",
+    "ground_truth": "There is no formal ticket or registration required. You simply board any APSRTC ordinary or Palle Velugu bus and show any valid photo ID with an Andhra Pradesh address (such as Aadhaar or voter ID) if the conductor asks.",
+    "user_profile": {"age": 28, "gender": "female", "caste": "OC", "religion": "Hindu", "occupation": "worker", "income": 100000, "residence_type": "urban", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "What documents are needed for Chandranna Pelli Kanuka?",
+    "ground_truth": "You need the Aadhaar cards of both bride and groom, 10th class certificates for age proof, registered marriage certificate, the bride's caste certificate, income certificate (below ₹3 lakh), bride's Aadhaar-linked bank passbook, and a ration card.",
+    "user_profile": {"age": 21, "gender": "female", "caste": "SC", "religion": "Hindu", "occupation": "none", "income": 120000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "What documents indicate my eligibility for free agricultural electricity?",
+    "ground_truth": "To register for AP Free Power Supply (Farmers), you need your Aadhaar card, agricultural electricity connection service number, Pattadar Passbook / land records, and your Bank passbook.",
+    "user_profile": {"age": 55, "gender": "male", "caste": "BC", "religion": "Hindu", "occupation": "farmer", "income": 200000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "What is the official portal for checking Post Matric Scholarship status?",
+    "ground_truth": "The official portal for applying and checking status for the Post Matric Scholarship (RTF/MTF) is scholarships.ap.gov.in.",
+    "user_profile": {"age": 19, "gender": "female", "caste": "BC", "religion": "Hindu", "occupation": "student", "income": 150000, "residence_type": "rural", "marital_status": "single", "houseless": false}
+  },
+  {
+    "question": "What is the helpline number for Aarogyasri?",
+    "ground_truth": "You can seek help by dialing 104, which is the official state health helpline for Aarogyasri assistance, or reach out to 1902 or your nearest Grama Sachivalayam.",
+    "user_profile": {"age": 45, "gender": "male", "caste": "OC", "religion": "Hindu", "occupation": "laborer", "income": 120000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "Where can I check the status of my Annadata Sukhibhava payment online?",
+    "ground_truth": "You can check the payment status of Annadata Sukhibhava on apagrisnet.gov.in or directly on sspensions.ap.gov.in using your Aadhaar number.",
+    "user_profile": {"age": 60, "gender": "male", "caste": "BC", "religion": "Hindu", "occupation": "farmer", "income": 180000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "What is the helpline for Talliki Vandanam problems?",
+    "ground_truth": "If you are facing issues, the official helpline for the education department and Talliki Vandanam is 1800-425-0082.",
+    "user_profile": {"age": 30, "gender": "female", "caste": "SC", "religion": "Hindu", "occupation": "worker", "income": 100000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  },
+  {
+    "question": "What portal tracks PM Kisan registration?",
+    "ground_truth": "You can manage your registration and track beneficiary payment status on pmkisan.gov.in via the 'Beneficiary Status' page.",
+    "user_profile": {"age": 50, "gender": "male", "caste": "OC", "religion": "Hindu", "occupation": "farmer", "income": 200000, "residence_type": "rural", "marital_status": "married", "houseless": false}
+  }
+]
